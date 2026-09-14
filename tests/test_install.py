@@ -275,7 +275,15 @@ def origem_git(tmp: Path) -> Path:
         GIT_COMMITTER_NAME="t",
         GIT_COMMITTER_EMAIL="t@exemplo.test",
     )
-    for argv in (["git", "init", "-q"], ["git", "add", "-A"], ["git", "commit", "-q", "-m", "base"]):
+    # sem a limpeza automática do git: ela roda em segundo plano depois de um commit e move objetos no meio de um
+    # clone do instalador ("failed to copy file", visto no macOS do CI)
+    for argv in (
+        ["git", "init", "-q"],
+        ["git", "config", "gc.auto", "0"],
+        ["git", "config", "maintenance.auto", "false"],
+        ["git", "add", "-A"],
+        ["git", "commit", "-q", "-m", "base"],
+    ):
         subprocess.run(argv, cwd=str(origem), check=True, capture_output=True, env=env)
     return origem
 

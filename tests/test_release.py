@@ -59,6 +59,7 @@ def _repo(tmp_path: Path, versao: str = "0.2.0") -> tuple[Path, Path]:
         'p@t namespaces="git,goal-pacer-release" %s %s\n' % (tipo, publica), "utf-8"
     )
     _git(repo, "init", "-q")
+    _git(repo, "config", "gc.auto", "0")  # sem limpeza do git em segundo plano no meio do teste
     _git(repo, "add", "-A")
     _git(repo, "commit", "-q", "-m", "base")
     return repo, chave
