@@ -1,0 +1,8 @@
+{
+  "summary": "Metas",
+  "events": [
+    {"id": "evt-nosso", "summary": "[GP] Bloco já criado", "status": "confirmed",
+     "description": "porquê\ngp:D-2026-10-01-01/inst-fixture-01",
+     "start": {"dateTime": "2026-10-01T08:00:00-03:00"}, "end": {"dateTime": "2026-10-01T09:00:00-03:00"}}
+  ]
+}

@@ -1,0 +1,11 @@
+# Goal Pacer: quando o job "mensal" roda. Persistent=true recupera a execução perdida com o computador desligado.
+[Unit]
+Description=Goal Pacer: agenda do job mensal
+
+[Timer]
+OnCalendar=*-*-01 05:30:00
+Persistent=true
+Unit=goal-pacer-mensal.service
+
+[Install]
+WantedBy=timers.target

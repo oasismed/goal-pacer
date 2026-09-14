@@ -1,0 +1,40 @@
+{
+  "casos": {
+    "dia-hostil": {
+      "hash_dia": "4524c1f0bbfc0c45",
+      "tokens_viva": 7182
+    },
+    "dia-normal": {
+      "hash_dia": "2df7b6b6dbdfa4c7",
+      "tokens_viva": 7176
+    },
+    "dia-normal-en": {
+      "hash_dia": "7973409bc217c3b8",
+      "tokens_viva": 7158
+    },
+    "dia-sem-janela": {
+      "hash_dia": "379af10de3c43327",
+      "tokens_viva": 0
+    },
+    "mes-apertado": {
+      "hash_numeros": "f2cd75f2939058a2",
+      "tokens_viva": 10581
+    },
+    "mes-apertado-en": {
+      "hash_numeros": "d16179d3f8de7662",
+      "tokens_viva": 10482
+    },
+    "mes-folgado": {
+      "hash_numeros": "c973ed8b85e0aafd",
+      "tokens_viva": 10537
+    },
+    "mes-hostil": {
+      "hash_numeros": "276429f6717e935b",
+      "tokens_viva": 10875
+    },
+    "primeiro-dia": {
+      "hash_dia": "9b633827c621044c",
+      "tokens_viva": 7168
+    }
+  }
+}

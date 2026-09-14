@@ -1,0 +1,16 @@
+{
+  "summary": "pessoa@exemplo.test",
+  "events": [
+    {"id": "evt-ter", "summary": "Reunião sintética", "description": "pauta de terceiro", "status": "confirmed",
+     "start": {"dateTime": "2026-09-29T08:30:00-03:00"}, "end": {"dateTime": "2026-09-29T09:00:00-03:00"}},
+    {"id": "evt-livre", "summary": "Foco", "status": "confirmed", "transparency": "transparent",
+     "start": {"dateTime": "2026-09-30T08:00:00-03:00"}, "end": {"dateTime": "2026-09-30T09:00:00-03:00"}},
+    {"id": "evt-dia", "summary": "Aniversário", "status": "confirmed",
+     "start": {"date": "2026-10-05"}, "end": {"date": "2026-10-06"}},
+    {"id": "evt-ooo", "summary": "Fora", "status": "confirmed", "eventType": "outOfOffice",
+     "start": {"date": "2026-10-12"}, "end": {"date": "2026-10-13"}},
+    {"id": "evt-recusado", "summary": "Convite recusado", "status": "confirmed",
+     "attendees": [{"email": "pessoa@exemplo.test", "self": true, "responseStatus": "declined"}],
+     "start": {"dateTime": "2026-10-13T08:00:00-03:00"}, "end": {"dateTime": "2026-10-13T10:00:00-03:00"}}
+  ]
+}

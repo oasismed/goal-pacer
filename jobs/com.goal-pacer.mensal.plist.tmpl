@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.goal-pacer.mensal</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>{{PYTHON3}}</string>
+    <string>{{APP}}/jobs/run_job.py</string>
+    <string>mensal</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>{{JOBS}}</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>GP_RAIZ</key>
+    <string>{{RAIZ}}</string>
+    <key>GP_DATA_DIR</key>
+    <string>{{DADOS}}</string>
+    <key>GP_CLAUDE_BIN</key>
+    <string>{{CLAUDE}}</string>
+    <key>PATH</key>
+    <string>/usr/bin:/bin:/usr/sbin:/sbin</string>
+    <key>LANG</key>
+    <string>pt_BR.UTF-8</string>
+  </dict>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Day</key>
+    <integer>1</integer>
+    <key>Hour</key>
+    <integer>5</integer>
+    <key>Minute</key>
+    <integer>30</integer>
+  </dict>
+  <key>StandardOutPath</key>
+  <string>{{JOBS}}/logs/launchd-mensal.log</string>
+  <key>StandardErrorPath</key>
+  <string>{{JOBS}}/logs/launchd-mensal.log</string>
+  <key>ProcessType</key>
+  <string>Background</string>
+</dict>
+</plist>

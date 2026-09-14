@@ -1,0 +1,55 @@
+Goal Pacer
+Copyright (c) 2026 Chico Gregori (Oasis Med). Todos os direitos reservados, exceto o uso permitido abaixo.
+
+Licença de uso
+
+1. Uso permitido. Qualquer pessoa pode baixar, instalar e usar o Goal Pacer, sem custo, no próprio computador, para
+   organizar as próprias metas, pessoais ou de trabalho. Pode também ler o código-fonte deste repositório para
+   entender como o software funciona e conferir o que ele faz no seu computador.
+
+2. O que não é permitido sem autorização por escrito do titular:
+   a) redistribuir o software, os instaladores ou o código, no todo ou em parte, inclusive em outros sites, lojas
+      ou pacotes;
+   b) vender, alugar, sublicenciar ou oferecer o software como serviço;
+   c) modificar o software e distribuir ou oferecer a outras pessoas a versão modificada;
+   d) usar o código, no todo ou em parte, em outro produto;
+   e) retirar ou alterar os avisos de direitos autorais e desta licença.
+
+3. Sem garantia. O SOFTWARE É FORNECIDO "NO ESTADO EM QUE SE ENCONTRA", SEM GARANTIA DE QUALQUER TIPO, EXPRESSA OU
+   IMPLÍCITA. EM NENHUM CASO O TITULAR RESPONDE POR QUALQUER RECLAMAÇÃO, DANO OU OUTRA RESPONSABILIDADE DECORRENTE DO
+   SOFTWARE OU DO SEU USO.
+
+4. Serviços de terceiros. O Goal Pacer usa a sua conta e a sua assinatura do Claude Code e, se você conectar, os
+   conectores do claude.ai (Google Calendar, Gmail, Notion, Google Drive). O uso desses serviços segue os termos de
+   cada provedor.
+
+Componentes de terceiros, sob as próprias licenças:
+- Plus Jakarta Sans (web/fonts/): SIL Open Font License 1.1, texto em web/fonts/OFL.txt.
+
+---
+
+Goal Pacer
+Copyright (c) 2026 Chico Gregori (Oasis Med). All rights reserved, except for the use permitted below.
+
+Use license
+
+1. Permitted use. Anyone may download, install and use Goal Pacer, free of charge, on their own computer, to
+   organize their own personal or work goals. You may also read the source code in this repository to understand
+   how the software works and check what it does on your computer.
+
+2. Not permitted without the copyright holder's written permission:
+   a) redistributing the software, the installers or the code, in whole or in part, including on other sites,
+      stores or packages;
+   b) selling, renting, sublicensing or offering the software as a service;
+   c) modifying the software and distributing or offering the modified version to other people;
+   d) using the code, in whole or in part, in another product;
+   e) removing or changing the copyright and license notices.
+
+3. No warranty. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. IN NO EVENT SHALL
+   THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM THE SOFTWARE OR ITS USE.
+
+4. Third-party services. Goal Pacer uses your Claude Code account and subscription and, if you connect them, the
+   claude.ai connectors (Google Calendar, Gmail, Notion, Google Drive). Using those services follows each provider's
+   terms.
+
+Third-party components keep their own licenses (Plus Jakarta Sans: SIL Open Font License 1.1, web/fonts/OFL.txt).

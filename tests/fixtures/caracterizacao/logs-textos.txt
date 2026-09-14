@@ -1,0 +1,37 @@
+$ logs resumo -> 0
+Registros locais dos últimos 7 dias
+
+Painel (pedidos, p50, p95, máximo)
+  GET /api/painel                        1  p50     18.0 ms  p95     18.0 ms  máx     18.0 ms
+
+Conectores (chamadas, p50, p95, máximo)
+  list_events                            1  p50  91000.0 ms  p95  91000.0 ms  máx  91000.0 ms
+
+chamadas aos conectores: 1 (repetidas: 0) · erros de tela: 1 · erros do painel: 0
+registro.json: 0.4 KB · dias: 2 · logs: 0.5 KB
+- Uma chamada a list_events levou 91 s nos últimos 7 dias; o teto por chamada é 180 s.
+- O painel registrou 1 erro(s) de tela nos últimos 7 dias: goal-pacer logs eventos --tipo erro_front.
+
+$ logs eventos -> 0
+<ts> painel metodo=GET rota=/api/painel status=200 ms=18.0 bytes=0 origem=local
+<ts> erro_front mensagem=x is undefined arquivo=app.js linha=3 coluna=0 tela=hoje
+
+$ logs eventos --tipo alerta -> 0
+Nenhum evento nos últimos 1 dia(s).
+
+$ logs trace nao-existe -> 0
+Nenhum trace de job por aqui. O primeiro sai no job das 7h.
+
+$ logs <home>/Downloads/dados resumo -> 3
+erro: pasta de dados não pode ficar em Desktop/Downloads/Documents: <home>/Downloads/dados
+
+$ logs resumo (sem pasta) -> 0
+Registros locais dos últimos 7 dias
+
+Painel (pedidos, p50, p95, máximo)
+  GET /api/painel                        1  p50     18.0 ms  p95     18.0 ms  máx     18.0 ms
+
+Conectores (chamadas, p50, p95, máximo)
+  list_events                            1  p50  91000.0 ms  p95  91000.0 ms  máx  91000.0 ms
+
+chamadas aos conectores: 1 (repetidas: 0) · erros de tela: 1 · erros do painel: 0

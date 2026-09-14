@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.goal-pacer.painel</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>{{PYTHON3}}</string>
+    <string>{{APP}}/scripts/web.py</string>
+    <string>{{MODO_PAINEL}}</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>{{JOBS}}</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>GP_RAIZ</key>
+    <string>{{RAIZ}}</string>
+    <key>GP_DATA_DIR</key>
+    <string>{{DADOS}}</string>
+    <key>GP_CLAUDE_BIN</key>
+    <string>{{CLAUDE}}</string>
+    <key>PATH</key>
+    <string>/usr/bin:/bin:/usr/sbin:/sbin</string>
+    <key>LANG</key>
+    <string>pt_BR.UTF-8</string>
+  </dict>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>KeepAlive</key>
+  <true/>
+  <key>ThrottleInterval</key>
+  <integer>30</integer>
+  <key>StandardOutPath</key>
+  <string>{{JOBS}}/logs/launchd-painel.log</string>
+  <key>StandardErrorPath</key>
+  <string>{{JOBS}}/logs/launchd-painel.log</string>
+  <key>ProcessType</key>
+  <string>Interactive</string>
+</dict>
+</plist>

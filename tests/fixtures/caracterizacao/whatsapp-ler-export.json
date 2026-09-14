@@ -1,0 +1,271 @@
+{
+ "cabecalho_nao_reconhecido": {
+  "arquivo": "cabecalho_nao_reconhecido.txt",
+  "formas": [
+   "aaaaa 9 aaa aaaa aaaaaaa",
+   "aaaaa 9 aaa aaaa aaaaaaa",
+   "aaaaa 9 aaa aaaa aaaaaaa"
+  ],
+  "formato": null,
+  "mensagens": 0,
+  "ordem": null,
+  "status": "nao_reconhecido",
+  "trechos": {
+   "M01": [],
+   "M02": [],
+   "M03": []
+  },
+  "ultima_mensagem": null,
+  "vistos": 0
+ },
+ "ios_com_ampm": {
+  "arquivo": "ios_com_ampm.txt",
+  "formas": [],
+  "formato": "ios",
+  "mensagens": 27,
+  "ordem": "mm/dd",
+  "status": "ok",
+  "trechos": {
+   "M01": [],
+   "M02": [
+    {
+     "texto": "treino de corrida 1",
+     "ts": "2026-09-01T13:05-03:00"
+    },
+    {
+     "texto": "treino de corrida 2",
+     "ts": "2026-09-02T14:05-03:00"
+    },
+    {
+     "texto": "treino de corrida 3",
+     "ts": "2026-09-03T15:05-03:00"
+    },
+    {
+     "texto": "treino de corrida 4",
+     "ts": "2026-09-04T16:05-03:00"
+    },
+    {
+     "texto": "treino de corrida 5",
+     "ts": "2026-09-05T17:05-03:00"
+    },
+    {
+     "texto": "treino de corrida 6",
+     "ts": "2026-09-06T18:05-03:00"
+    },
+    {
+     "texto": "treino de corrida 7",
+     "ts": "2026-09-07T19:05-03:00"
+    },
+    {
+     "texto": "treino de corrida 8",
+     "ts": "2026-09-08T20:05-03:00"
+    },
+    {
+     "texto": "treino de corrida 9",
+     "ts": "2026-09-09T21:05-03:00"
+    },
+    {
+     "texto": "treino de corrida 10",
+     "ts": "2026-09-10T22:05-03:00"
+    }
+   ],
+   "M03": []
+  },
+  "ultima_mensagem": "2026-09-27T15:05-03:00",
+  "vistos": 27
+ },
+ "longo": {
+  "arquivo": "longo.txt",
+  "formas": [],
+  "formato": "android",
+  "mensagens": 34,
+  "ordem": "dd/mm",
+  "status": "ok",
+  "trechos": {
+   "M01": [
+    {
+     "texto": "treino 5 feito continuação sobre estatística do dia 5",
+     "ts": "2026-09-05T07:05-03:00"
+    },
+    {
+     "texto": "treino 10 feito continuação sobre estatística do dia 10",
+     "ts": "2026-09-10T07:10-03:00"
+    },
+    {
+     "texto": "treino 15 feito continuação sobre estatística do dia 15",
+     "ts": "2026-09-15T07:15-03:00"
+    },
+    {
+     "texto": "treino 20 feito continuação sobre estatística do dia 20",
+     "ts": "2026-09-20T07:20-03:00"
+    },
+    {
+     "texto": "treino 25 feito continuação sobre estatística do dia 25",
+     "ts": "2026-09-25T07:25-03:00"
+    },
+    {
+     "texto": "Estatistica: prova amanhã",
+     "ts": "2026-09-27T21:00-03:00"
+    }
+   ],
+   "M02": [
+    {
+     "texto": "treino 1 feito",
+     "ts": "2026-09-01T07:01-03:00"
+    },
+    {
+     "texto": "treino 2 feito",
+     "ts": "2026-09-02T07:02-03:00"
+    },
+    {
+     "texto": "treino 3 feito",
+     "ts": "2026-09-03T07:03-03:00"
+    },
+    {
+     "texto": "treino 4 feito",
+     "ts": "2026-09-04T07:04-03:00"
+    },
+    {
+     "texto": "treino 5 feito continuação sobre estatística do dia 5",
+     "ts": "2026-09-05T07:05-03:00"
+    },
+    {
+     "texto": "treino 6 feito",
+     "ts": "2026-09-06T07:06-03:00"
+    },
+    {
+     "texto": "treino 7 feito",
+     "ts": "2026-09-07T07:07-03:00"
+    },
+    {
+     "texto": "treino 8 feito",
+     "ts": "2026-09-08T07:08-03:00"
+    },
+    {
+     "texto": "treino 9 feito",
+     "ts": "2026-09-09T07:09-03:00"
+    },
+    {
+     "texto": "treino 10 feito continuação sobre estatística do dia 10",
+     "ts": "2026-09-10T07:10-03:00"
+    }
+   ],
+   "M03": []
+  },
+  "ultima_mensagem": "2026-09-27T21:00-03:00",
+  "vistos": 27
+ },
+ "longo_truncado_depois_da_deteccao": {
+  "arquivo": "longo_truncado_depois_da_deteccao.txt",
+  "formas": [],
+  "formato": "android",
+  "mensagens": 32,
+  "ordem": "dd/mm",
+  "status": "truncado",
+  "trechos": {
+   "M01": [
+    {
+     "texto": "treino 5 feito continuação sobre estatística do dia 5",
+     "ts": "2026-09-05T07:05-03:00"
+    },
+    {
+     "texto": "treino 10 feito continuação sobre estatística do dia 10",
+     "ts": "2026-09-10T07:10-03:00"
+    },
+    {
+     "texto": "treino 15 feito continuação sobre estatística do dia 15",
+     "ts": "2026-09-15T07:15-03:00"
+    },
+    {
+     "texto": "treino 20 feito continuação sobre estatística do dia 20",
+     "ts": "2026-09-20T07:20-03:00"
+    },
+    {
+     "texto": "treino 25 feito continuação sobre estatística do dia 25",
+     "ts": "2026-09-25T07:25-03:00"
+    }
+   ],
+   "M02": [
+    {
+     "texto": "treino 1 feito",
+     "ts": "2026-09-01T07:01-03:00"
+    },
+    {
+     "texto": "treino 2 feito",
+     "ts": "2026-09-02T07:02-03:00"
+    },
+    {
+     "texto": "treino 3 feito",
+     "ts": "2026-09-03T07:03-03:00"
+    },
+    {
+     "texto": "treino 4 feito",
+     "ts": "2026-09-04T07:04-03:00"
+    },
+    {
+     "texto": "treino 5 feito continuação sobre estatística do dia 5",
+     "ts": "2026-09-05T07:05-03:00"
+    },
+    {
+     "texto": "treino 6 feito",
+     "ts": "2026-09-06T07:06-03:00"
+    },
+    {
+     "texto": "treino 7 feito",
+     "ts": "2026-09-07T07:07-03:00"
+    },
+    {
+     "texto": "treino 8 feito",
+     "ts": "2026-09-08T07:08-03:00"
+    },
+    {
+     "texto": "treino 9 feito",
+     "ts": "2026-09-09T07:09-03:00"
+    },
+    {
+     "texto": "treino 10 feito continuação sobre estatística do dia 10",
+     "ts": "2026-09-10T07:10-03:00"
+    }
+   ],
+   "M03": []
+  },
+  "ultima_mensagem": "2026-09-25T07:25-03:00",
+  "vistos": 25
+ },
+ "longo_truncado_na_deteccao": {
+  "arquivo": "longo_truncado_na_deteccao.txt",
+  "formas": [],
+  "formato": "android",
+  "mensagens": 6,
+  "ordem": "dd/mm",
+  "status": "truncado",
+  "trechos": {
+   "M01": [],
+   "M02": [
+    {
+     "texto": "treino 1 feito",
+     "ts": "2026-09-01T07:01-03:00"
+    },
+    {
+     "texto": "treino 2 feito",
+     "ts": "2026-09-02T07:02-03:00"
+    },
+    {
+     "texto": "treino 3 feito",
+     "ts": "2026-09-03T07:03-03:00"
+    },
+    {
+     "texto": "treino 4 feito",
+     "ts": "2026-09-04T07:04-03:00"
+    },
+    {
+     "texto": "treino 5 feito",
+     "ts": "2026-09-05T07:05-03:00"
+    }
+   ],
+   "M03": []
+  },
+  "ultima_mensagem": "2026-09-05T07:05-03:00",
+  "vistos": 5
+ }
+}

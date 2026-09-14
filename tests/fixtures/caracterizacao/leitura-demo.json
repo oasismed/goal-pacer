@@ -1,0 +1,506 @@
+{
+ "leituras": {
+  "M01": {
+   "avanco": 0.5,
+   "cobertura_pct": 96,
+   "compasso": "folga",
+   "cor": "#2F6B55",
+   "criado": "2026-09-01",
+   "custo_h_semana": 4.0,
+   "decisao": "reduzir",
+   "dias_sem_feito": 0,
+   "estado": "florescendo",
+   "estado_arquivo": "ativa",
+   "estagio": "consolidacao",
+   "forte": "evidencia",
+   "fraco": null,
+   "horizonte": "trimestre",
+   "id": "M01",
+   "impacto": "essencial",
+   "marcos": [
+    {
+     "feito": true,
+     "indice": 0,
+     "texto": "Módulos 1 e 2 concluídos"
+    },
+    {
+     "feito": true,
+     "indice": 1,
+     "texto": "Lista de exercícios do módulo 3"
+    },
+    {
+     "feito": false,
+     "indice": 2,
+     "texto": "Projeto final com dados reais"
+    },
+    {
+     "feito": false,
+     "indice": 3,
+     "texto": "Prova de certificação"
+    }
+   ],
+   "objetivo": "O01",
+   "periodo_prazo": "2026-T4",
+   "peso": 3,
+   "por_que": "É a base técnica da mudança de carreira.",
+   "prazo": "2026-12-15",
+   "prazo_curto": "15/12/2026",
+   "prazo_externo": false,
+   "progresso_pct": 21.4,
+   "quadrante": "proteger",
+   "rotulo": "M1",
+   "semanas": 12,
+   "sentimento": "energia",
+   "sinais": {
+    "energia": {
+     "nivel": "alto",
+     "valor": 1.0
+    },
+    "espaco": {
+     "nivel": "medio",
+     "valor": 0.65
+    },
+    "evidencia": {
+     "nivel": "alto",
+     "valor": 1.0
+    },
+    "fluidez": {
+     "nivel": "alto",
+     "valor": 0.9
+    },
+    "presenca": {
+     "nivel": "alto",
+     "valor": 0.85
+    }
+   },
+   "tendencia": "acelerando",
+   "titulo": "Terminar o curso de estatística",
+   "tracao": 0.893,
+   "tracao_semana": 0.965,
+   "trilha": [
+    1.0,
+    1.0,
+    0.667,
+    0.667,
+    0.892,
+    1.0
+   ]
+  },
+  "M02": {
+   "avanco": 0.333,
+   "cobertura_pct": 100,
+   "compasso": "folga",
+   "cor": "#4E9A77",
+   "criado": "2026-09-01",
+   "custo_h_semana": 5.0,
+   "decisao": "manter",
+   "dias_sem_feito": 6,
+   "estado": "atencao",
+   "estado_arquivo": "ativa",
+   "estagio": "construcao",
+   "forte": "espaco",
+   "fraco": "energia",
+   "horizonte": "semestre",
+   "id": "M02",
+   "impacto": "essencial",
+   "marcos": [
+    {
+     "feito": true,
+     "indice": 0,
+     "texto": "Correr 5 km sem parar"
+    },
+    {
+     "feito": false,
+     "indice": 1,
+     "texto": "Correr 7 km"
+    },
+    {
+     "feito": false,
+     "indice": 2,
+     "texto": "Prova de 10 km em 01/03"
+    }
+   ],
+   "objetivo": "O02",
+   "periodo_prazo": "2027-S1",
+   "peso": 3,
+   "por_que": "Correr me dá energia e a prova de março já está paga.",
+   "prazo": "2027-03-01",
+   "prazo_curto": "01/03/2027",
+   "prazo_externo": true,
+   "progresso_pct": 30.0,
+   "quadrante": "proteger",
+   "rotulo": "M2",
+   "semanas": 20,
+   "sentimento": "pesada",
+   "sinais": {
+    "energia": {
+     "nivel": "baixo",
+     "valor": 0.25
+    },
+    "espaco": {
+     "nivel": "alto",
+     "valor": 1.0
+    },
+    "evidencia": {
+     "nivel": "medio",
+     "valor": 0.6
+    },
+    "fluidez": {
+     "nivel": "medio",
+     "valor": 0.556
+    },
+    "presenca": {
+     "nivel": "baixo",
+     "valor": 0.444
+    }
+   },
+   "tendencia": "desacelerando",
+   "titulo": "Correr 10 km sem parar",
+   "tracao": 0.507,
+   "tracao_semana": 0.365,
+   "trilha": [
+    null,
+    0.892,
+    0.892,
+    0.892,
+    0.333,
+    0.225
+   ]
+  },
+  "M03": {
+   "avanco": 0.25,
+   "cobertura_pct": 100,
+   "compasso": "compasso",
+   "cor": "#1E4A3B",
+   "criado": "2026-09-01",
+   "custo_h_semana": 3.0,
+   "decisao": "manter",
+   "dias_sem_feito": 15,
+   "estado": "travada",
+   "estado_arquivo": "ativa",
+   "estagio": "construcao",
+   "forte": "espaco",
+   "fraco": "energia",
+   "horizonte": "semestre",
+   "id": "M03",
+   "impacto": "essencial",
+   "marcos": [
+    {
+     "feito": true,
+     "indice": 0,
+     "texto": "Primeiro artigo publicado"
+    },
+    {
+     "feito": false,
+     "indice": 1,
+     "texto": "Segundo artigo"
+    },
+    {
+     "feito": false,
+     "indice": 2,
+     "texto": "Terceiro artigo"
+    },
+    {
+     "feito": false,
+     "indice": 3,
+     "texto": "Quarto artigo"
+    }
+   ],
+   "objetivo": "O03",
+   "periodo_prazo": "2027-S1",
+   "peso": 3,
+   "por_que": "Escrever organiza o que aprendo e me torna visível.",
+   "prazo": "2027-01-31",
+   "prazo_curto": "31/01/2027",
+   "prazo_externo": false,
+   "progresso_pct": 11.1,
+   "quadrante": "destravar",
+   "rotulo": "M3",
+   "semanas": 12,
+   "sentimento": "pesada",
+   "sinais": {
+    "energia": {
+     "nivel": "baixo",
+     "valor": 0.25
+    },
+    "espaco": {
+     "nivel": "alto",
+     "valor": 1.0
+    },
+    "evidencia": {
+     "nivel": "medio",
+     "valor": 0.6
+    },
+    "fluidez": {
+     "nivel": "baixo",
+     "valor": 0.429
+    },
+    "presenca": {
+     "nivel": "baixo",
+     "valor": 0.286
+    }
+   },
+   "tendencia": "acelerando",
+   "titulo": "Publicar quatro artigos técnicos",
+   "tracao": 0.426,
+   "tracao_semana": 0.365,
+   "trilha": [
+    null,
+    0.838,
+    1.0,
+    0.838,
+    0.0,
+    0.225
+   ]
+  },
+  "M05": {
+   "avanco": 0.5,
+   "cobertura_pct": 100,
+   "compasso": "folga",
+   "cor": "#2F7470",
+   "criado": "2026-08-20",
+   "custo_h_semana": 1.0,
+   "decisao": "manter",
+   "dias_sem_feito": 2,
+   "estado": "ritmo",
+   "estado_arquivo": "ativa",
+   "estagio": "consolidacao",
+   "forte": "espaco",
+   "fraco": "presenca",
+   "horizonte": "trimestre",
+   "id": "M05",
+   "impacto": "apoio",
+   "marcos": [
+    {
+     "feito": true,
+     "indice": 0,
+     "texto": "Duas semanas seguidas"
+    },
+    {
+     "feito": false,
+     "indice": 1,
+     "texto": "Um mês seguido"
+    }
+   ],
+   "objetivo": "M05",
+   "periodo_prazo": "2026-T4",
+   "peso": 1,
+   "por_que": "Sem telas tarde, durmo melhor e o dia seguinte rende.",
+   "prazo": "2026-12-20",
+   "prazo_curto": "20/12/2026",
+   "prazo_externo": false,
+   "progresso_pct": 58.3,
+   "quadrante": "manter_leve",
+   "rotulo": "M5",
+   "semanas": 12,
+   "sentimento": "firme",
+   "sinais": {
+    "energia": {
+     "nivel": "medio",
+     "valor": 0.65
+    },
+    "espaco": {
+     "nivel": "alto",
+     "valor": 1.0
+    },
+    "evidencia": {
+     "nivel": "sem_sinal",
+     "valor": null
+    },
+    "fluidez": {
+     "nivel": "medio",
+     "valor": 0.684
+    },
+    "presenca": {
+     "nivel": "medio",
+     "valor": 0.553
+    }
+   },
+   "tendencia": "desacelerando",
+   "titulo": "Desligar as telas às 22h30",
+   "tracao": 0.635,
+   "tracao_semana": 0.569,
+   "trilha": [
+    null,
+    0.779,
+    0.783,
+    0.671,
+    0.667,
+    0.479
+   ]
+  },
+  "M06": {
+   "avanco": 0.25,
+   "cobertura_pct": 100,
+   "compasso": "folga",
+   "cor": "#2F6B55",
+   "criado": "2026-08-20",
+   "custo_h_semana": 1.0,
+   "decisao": "manter",
+   "dias_sem_feito": 2,
+   "estado": "florescendo",
+   "estado_arquivo": "ativa",
+   "estagio": "construcao",
+   "forte": "fluidez",
+   "fraco": null,
+   "horizonte": "ano",
+   "id": "M06",
+   "impacto": "essencial",
+   "marcos": [
+    {
+     "feito": true,
+     "indice": 0,
+     "texto": "Currículo e LinkedIn refeitos"
+    },
+    {
+     "feito": false,
+     "indice": 1,
+     "texto": "Dez conversas com pessoas da área"
+    },
+    {
+     "feito": false,
+     "indice": 2,
+     "texto": "Três processos seletivos"
+    },
+    {
+     "feito": false,
+     "indice": 3,
+     "texto": "Proposta aceita"
+    }
+   ],
+   "objetivo": "O01",
+   "periodo_prazo": "2027",
+   "peso": 3,
+   "por_que": "É a mudança de carreira acontecendo de fato.",
+   "prazo": "2027-08-31",
+   "prazo_curto": "31/08/2027",
+   "prazo_externo": false,
+   "progresso_pct": 3.1,
+   "quadrante": "proteger",
+   "rotulo": "M6",
+   "semanas": 48,
+   "sentimento": "energia",
+   "sinais": {
+    "energia": {
+     "nivel": "alto",
+     "valor": 1.0
+    },
+    "espaco": {
+     "nivel": "alto",
+     "valor": 1.0
+    },
+    "evidencia": {
+     "nivel": "sem_sinal",
+     "valor": null
+    },
+    "fluidez": {
+     "nivel": "alto",
+     "valor": 1.0
+    },
+    "presenca": {
+     "nivel": "medio",
+     "valor": 0.667
+    }
+   },
+   "tendencia": "desacelerando",
+   "titulo": "Conseguir a primeira vaga em dados",
+   "tracao": 0.808,
+   "tracao_semana": 0.75,
+   "trilha": [
+    null,
+    1.0,
+    0.0,
+    0.675,
+    1.0,
+    0.675
+   ]
+  }
+ },
+ "mes": "2026-10",
+ "objetivos": {
+  "M05": {
+   "alavanca": "M05",
+   "como_vou_saber": "",
+   "contribuicoes": {
+    "M05": 0.581
+   },
+   "cor": "#2F7470",
+   "estado": "construcao",
+   "fatias": {
+    "M05": 1.0
+   },
+   "forca": 0.581,
+   "id": "M05",
+   "implicito": true,
+   "por_que": "",
+   "titulo": "Desligar as telas às 22h30"
+  },
+  "O01": {
+   "alavanca": "M06",
+   "como_vou_saber": "Uma proposta de vaga ou um projeto pago usando o que aprendi.",
+   "contribuicoes": {
+    "M01": 0.368,
+    "M06": 0.292
+   },
+   "cor": "#2F6B55",
+   "estado": "firme",
+   "fatias": {
+    "M01": 0.5,
+    "M06": 0.5
+   },
+   "forca": 0.66,
+   "id": "O01",
+   "implicito": false,
+   "por_que": "Quero trabalhar com análise de dados até o meio do ano que vem, com um trabalho que me dê orgulho.",
+   "titulo": "Mudar de carreira para dados"
+  },
+  "O02": {
+   "alavanca": "M02",
+   "como_vou_saber": "Correr 10 km na prova de março e acordar descansado na maioria dos dias.",
+   "contribuicoes": {
+    "M02": 0.437
+   },
+   "cor": "#4E9A77",
+   "estado": "construcao",
+   "fatias": {
+    "M02": 1.0
+   },
+   "forca": 0.437,
+   "id": "O02",
+   "implicito": false,
+   "por_que": "Chegar ao fim do dia com disposição para brincar com as crianças e dormir bem.",
+   "titulo": "Ter energia para a família"
+  },
+  "O03": {
+   "alavanca": "M03",
+   "como_vou_saber": "Quatro artigos publicados e uma conversa nova que veio de um deles.",
+   "contribuicoes": {
+    "M03": 0.356
+   },
+   "cor": "#1E4A3B",
+   "estado": "foco",
+   "fatias": {
+    "M03": 1.0
+   },
+   "forca": 0.356,
+   "id": "O03",
+   "implicito": false,
+   "por_que": "Escrever me ajuda a pensar e abre portas; quero que as pessoas certas me encontrem.",
+   "titulo": "Ser lido pelo que escrevo"
+  },
+  "O04": {
+   "alavanca": null,
+   "como_vou_saber": "Quatro artigos publicados e uma conversa nova que veio de um deles.",
+   "contribuicoes": {},
+   "cor": "#6F8F55",
+   "estado": "pausado",
+   "fatias": {},
+   "forca": null,
+   "id": "O04",
+   "implicito": false,
+   "por_que": "Escrever me ajuda a pensar e abre portas; quero que as pessoas certas me encontrem.",
+   "titulo": "Aprender piano pelo que escrevo"
+  }
+ },
+ "semana": "2026-W40"
+}

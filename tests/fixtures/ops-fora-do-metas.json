@@ -1,0 +1,9 @@
+{
+  "run_id": "fx-diario-03",
+  "calendar_id_metas": "metas-fixture@group.calendar.google.com",
+  "gerado_em": "2026-09-28T07:01:00-03:00",
+  "ops": [
+    {"op": "create", "task_id": "D-2026-09-28-01", "calendar_id": "pessoa@exemplo.test", "corpo": {"summary": "[GP] Bloco"}},
+    {"op": "update", "task_id": "D-2026-09-28-02", "calendar_id": "metas-fixture@group.calendar.google.com", "corpo": {}}
+  ]
+}

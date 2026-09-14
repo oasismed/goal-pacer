@@ -1,0 +1,11 @@
+{
+  "threads": [
+    {
+      "id": "thread-fixture-1",
+      "messages": [
+        {"id": "msg-fixture-1", "sender": "Pessoa Fixture <Pessoa@Exemplo.test>", "labelIds": ["SENT"], "subject": "assunto sintético"}
+      ]
+    }
+  ],
+  "resultCountEstimate": 201
+}

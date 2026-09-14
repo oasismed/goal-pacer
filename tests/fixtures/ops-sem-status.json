@@ -1,0 +1,10 @@
+{
+  "run_id": "fx-diario-02",
+  "calendar_id_metas": "metas-fixture@group.calendar.google.com",
+  "gerado_em": "2026-09-28T07:01:00-03:00",
+  "ops": [
+    {"op": "create", "task_id": "D-2026-09-28-01", "calendar_id": "metas-fixture@group.calendar.google.com", "corpo": {"summary": "[GP] Bloco"}, "status": "ok", "event_id_resultado": "evt-1"},
+    {"op": "create", "task_id": "D-2026-09-28-02", "calendar_id": "metas-fixture@group.calendar.google.com", "corpo": {"summary": "[GP] Outro"}},
+    {"op": "delete", "task_id": "D-2026-09-27-03", "calendar_id": "metas-fixture@group.calendar.google.com", "calendar_event_id": "evt-3", "status": "erro", "mensagem": "The requested event could not be found or has been deleted."}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "modulos": {
+    "scripts/goalpacer/calendar_ops.py": 98,
+    "scripts/goalpacer/frontmatter.py": 99,
+    "scripts/goalpacer/inferencia.py": 100,
+    "scripts/goalpacer/io.py": 99,
+    "scripts/goalpacer/leitor.py": 99,
+    "scripts/goalpacer/proxy.py": 98,
+    "scripts/goalpacer/registro.py": 93,
+    "scripts/goalpacer/respostas_email.py": 98,
+    "scripts/goalpacer/schema.py": 98,
+    "scripts/goalpacer/seguranca.py": 99,
+    "scripts/goalpacer/telemetria.py": 100,
+    "scripts/goalpacer/whatsapp.py": 98,
+    "scripts/web.py": 96
+  },
+  "total": 94
+}

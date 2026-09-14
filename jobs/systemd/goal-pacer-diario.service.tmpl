@@ -1,0 +1,16 @@
+# Goal Pacer: diário das 7h (segunda a sábado). Gerado por install.sh a partir deste template; não edite a cópia instalada.
+[Unit]
+Description=Goal Pacer: diário das 7h (segunda a sábado)
+
+[Service]
+Type=oneshot
+WorkingDirectory={{JOBS}}
+Environment="GP_RAIZ={{RAIZ}}"
+Environment="GP_DATA_DIR={{DADOS}}"
+Environment="GP_CLAUDE_BIN={{CLAUDE}}"
+Environment="PATH=/usr/local/bin:/usr/bin:/bin"
+Environment="LANG=C.UTF-8"
+ExecStart="{{PYTHON3}}" "{{APP}}/jobs/run_job.py" diario
+UMask=0077
+NoNewPrivileges=yes
+TimeoutStartSec=2h

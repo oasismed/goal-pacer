@@ -1,0 +1,32 @@
+Goal Pacer · status · ter 29/09 09:00
+Próximo diário: qua 30/09 07:00
+
+Pendências
+  M1: Com as janelas até 31/10 dá para cobrir 80% do que falta de M1 neste mês.
+    Saídas: reduzir · adiar para 22/12 · manter. Responda em /goal-pacer
+    checkin.
+  M2: Com as janelas até 31/10 dá para cobrir 62% do que falta de M2 neste mês.
+    Saídas: reduzir · renegociar o prazo · manter. Responda em /goal-pacer
+    checkin.
+  Confirme o custo de M1: título, horizonte ou prazo mudaram desde a pesquisa.
+
+Como vão as metas
+  O que mais move esta semana: Correr 10 km sem parar (M2).
+  M2 Correr 10 km sem parar: travada, pede fôlego até o prazo
+  M1 Terminar o curso de estatística: ganhando ritmo, pede fôlego até o prazo
+
+Cobertura de outubro/2026
+  oferta 46,8 h · demanda 70 h · cobertura 67%
+  M1 80% · reduzir
+  M2 62% · renegociar
+
+Perfil
+  baseado em 1 confirmada(s)
+
+Evidências dos últimos 30 dias
+  25/09 whatsapp M2: treino de 6 km registrado na conversa do grupo
+  20/09 gmail M1: confirmação de matrícula no módulo 3 do curso
+
+Últimas execuções
+  28/09 07:00 diario      ok                 0 tok     diario-1
+  28/09 07:00 mensal      ok                 0 tok     mensal-1

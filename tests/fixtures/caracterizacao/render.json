@@ -1,0 +1,928 @@
+{
+ "emails": {
+  "en/cheio": {
+   "assunto": "[goal-pacer] Mon Sep 28 · 9 blocks",
+   "corpo": [
+    "Segunda, 28/09",
+    "8 blocos · 1 confirmada",
+    "",
+    "TODAY",
+    "07h45-08h25 · block 01",
+    "Bloco <1> & cia (M2)",
+    "porque 1",
+    "",
+    "08h30-09h10 · block 02",
+    "Bloco <2> & cia (M3)",
+    "",
+    "09h15-09h55 · block 03",
+    "Bloco <3> & cia (M1)",
+    "porque 3",
+    "M1 40% → 42%",
+    "",
+    "10h-10h40 · block 04",
+    "Bloco <4> & cia (M2)",
+    "",
+    "10h45-11h25 · block 05",
+    "Bloco <5> & cia (M3)",
+    "porque 5",
+    "",
+    "11h30-12h10 · block 06",
+    "Bloco <6> & cia (M1)",
+    "M1 40% → 42%",
+    "",
+    "and 3 more in the calendar",
+    "",
+    "SINCE SÁB",
+    "1 confirmada · 2 feita?",
+    "- linha 0",
+    "- linha 1",
+    "- linha 2",
+    "- linha 3",
+    "- linha 4",
+    "- linha 5",
+    "",
+    "HOW THE MILESTONES ARE GOING",
+    "Semana em ritmo.",
+    "",
+    "- M1 segue firme",
+    "- M2 segue firme",
+    "- M3 segue firme",
+    "- M4 segue firme",
+    "- M5 segue firme",
+    "- M6 segue firme",
+    "- M7 segue firme",
+    "- M8 segue firme",
+    "",
+    "NOTES",
+    "- aviso 0",
+    "- aviso 1",
+    "- aviso 2",
+    "",
+    "See the day in Google Calendar:",
+    "https://calendar.google.com/calendar/r/day/2026/09/28",
+    "Check-in: /goal-pacer checkin · Status: /goal-pacer status",
+    "To confirm without opening the calendar, reply to this email",
+    "with one line per block: 02 done 1h, or 03 skipped.",
+    "Leave the block in the calendar = done? · delete it =",
+    "skipped · move it = reschedule.",
+    ""
+   ],
+   "html": "<div style=\"max-width:560px;margin:0 auto;background:#ffffff;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:1.45;color:#111;\">\n<h1 style=\"font-size:20px;margin:0 0 4px 0;\">Segunda, 28/09</h1>\n<p style=\"margin:0;color:#444;\">8 blocos · 1 confirmada</p>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\"><p style=\"font-size:16px;font-weight:600;color:#111;margin:0 0 6px 0;\">Today</p>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">07h45-08h25 · block 01</div><div style=\"font-weight:600;\">Bloco &lt;1&gt; &amp; cia (M2)</div><div style=\"color:#444;\">porque 1</div></td></tr></table>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">08h30-09h10 · block 02</div><div style=\"font-weight:600;\">Bloco &lt;2&gt; &amp; cia (M3)</div></td></tr></table>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">09h15-09h55 · block 03</div><div style=\"font-weight:600;\">Bloco &lt;3&gt; &amp; cia (M1)</div><div style=\"color:#444;\">porque 3</div><div style=\"font-size:13px;color:#666;\">M1 40% → 42%</div></td></tr></table>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">10h-10h40 · block 04</div><div style=\"font-weight:600;\">Bloco &lt;4&gt; &amp; cia (M2)</div></td></tr></table>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">10h45-11h25 · block 05</div><div style=\"font-weight:600;\">Bloco &lt;5&gt; &amp; cia (M3)</div><div style=\"color:#444;\">porque 5</div></td></tr></table>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">11h30-12h10 · block 06</div><div style=\"font-weight:600;\">Bloco &lt;6&gt; &amp; cia (M1)</div><div style=\"font-size:13px;color:#666;\">M1 40% → 42%</div></td></tr></table>\n<p style=\"margin:0;color:#444;\">and 3 more in the calendar</p>\n</div>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\"><p style=\"font-size:16px;font-weight:600;color:#111;margin:0 0 6px 0;\">Since sáb</p>\n<p style=\"margin:0 0 6px 0;color:#444;\">1 confirmada · 2 feita?</p>\n<p style=\"margin:0;\">linha 0</p>\n<p style=\"margin:0;\">linha 1</p>\n<p style=\"margin:0;\">linha 2</p>\n<p style=\"margin:0;\">linha 3</p>\n<p style=\"margin:0;\">linha 4</p>\n<p style=\"margin:0;\">linha 5</p>\n</div>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\"><p style=\"font-size:16px;font-weight:600;color:#111;margin:0 0 6px 0;\">How the milestones are going</p>\n<p style=\"margin:0 0 8px 0;font-weight:bold;\">Semana em ritmo.</p>\n<p style=\"margin:0 0 4px 0;\">M1 segue firme</p>\n<p style=\"margin:0 0 4px 0;\">M2 segue firme</p>\n<p style=\"margin:0 0 4px 0;\">M3 segue firme</p>\n<p style=\"margin:0 0 4px 0;\">M4 segue firme</p>\n<p style=\"margin:0 0 4px 0;\">M5 segue firme</p>\n<p style=\"margin:0 0 4px 0;\">M6 segue firme</p>\n<p style=\"margin:0 0 4px 0;\">M7 segue firme</p>\n<p style=\"margin:0 0 4px 0;\">M8 segue firme</p>\n</div>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\"><p style=\"font-size:16px;font-weight:600;color:#111;margin:0 0 6px 0;\">Notes</p><p style=\"margin:0;\">aviso 0</p><p style=\"margin:0;\">aviso 1</p><p style=\"margin:0;\">aviso 2</p></div>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\">\n<a href=\"https://calendar.google.com/calendar/r/day/2026/09/28\" style=\"display:inline-block;min-height:44px;line-height:44px;color:#111;text-decoration:underline;\">See the day in Google Calendar</a>\n<p style=\"margin:6px 0 0 0;font-family:ui-monospace, Menlo, Consolas, monospace;font-size:13px;color:#666;\">Check-in: /goal-pacer checkin · Status: /goal-pacer status</p>\n<p style=\"margin:6px 0 0 0;font-size:13px;color:#666;\">Leave the block in the calendar = done? · delete it = skipped · move it = reschedule.</p>\n</div></div>\n",
+   "modelo": {
+    "assunto": "[goal-pacer] Mon Sep 28 · 9 blocks",
+    "avisos": [
+     "aviso 0",
+     "aviso 1",
+     "aviso 2"
+    ],
+    "comecando": false,
+    "data": "2026-09-28",
+    "decisao": null,
+    "desde": {
+     "contagem": "1 confirmada · 2 feita?",
+     "dia": "sáb",
+     "linhas": [
+      "linha 0",
+      "linha 1",
+      "linha 2",
+      "linha 3",
+      "linha 4",
+      "linha 5"
+     ]
+    },
+    "hoje": [
+     {
+      "efeito": "",
+      "hora": "07h45-08h25 · block 01",
+      "porque": "porque 1",
+      "titulo": "Bloco <1> & cia (M2)"
+     },
+     {
+      "efeito": "",
+      "hora": "08h30-09h10 · block 02",
+      "porque": "",
+      "titulo": "Bloco <2> & cia (M3)"
+     },
+     {
+      "efeito": "M1 40% → 42%",
+      "hora": "09h15-09h55 · block 03",
+      "porque": "porque 3",
+      "titulo": "Bloco <3> & cia (M1)"
+     },
+     {
+      "efeito": "",
+      "hora": "10h-10h40 · block 04",
+      "porque": "",
+      "titulo": "Bloco <4> & cia (M2)"
+     },
+     {
+      "efeito": "",
+      "hora": "10h45-11h25 · block 05",
+      "porque": "porque 5",
+      "titulo": "Bloco <5> & cia (M3)"
+     },
+     {
+      "efeito": "M1 40% → 42%",
+      "hora": "11h30-12h10 · block 06",
+      "porque": "",
+      "titulo": "Bloco <6> & cia (M1)"
+     }
+    ],
+    "hoje_mais": 3,
+    "link": "https://calendar.google.com/calendar/r/day/2026/09/28",
+    "primeiro_dia": false,
+    "progresso": [
+     "M1 segue firme",
+     "M2 segue firme",
+     "M3 segue firme",
+     "M4 segue firme",
+     "M5 segue firme",
+     "M6 segue firme",
+     "M7 segue firme",
+     "M8 segue firme"
+    ],
+    "progresso_manchete": "Semana em ritmo.",
+    "resumo": "8 blocos · 1 confirmada",
+    "titulo": "Segunda, 28/09"
+   }
+  },
+  "en/decisao_e_primeiro_dia": {
+   "assunto": "[goal-pacer] Mon Sep 28 · 9 blocks · M3 needs a decision",
+   "corpo": [
+    "Segunda, 28/09",
+    "8 blocos · 1 confirmada",
+    "",
+    "NEEDS A DECISION (M3)",
+    "Com as janelas até 30/10 dá para cobrir 62%.",
+    "Answer in /goal-pacer checkin.",
+    "",
+    "TODAY",
+    "07h45-08h25 · block 01",
+    "Bloco <1> & cia (M2)",
+    "porque 1",
+    "",
+    "08h30-09h10 · block 02",
+    "Bloco <2> & cia (M3)",
+    "",
+    "09h15-09h55 · block 03",
+    "Bloco <3> & cia (M1)",
+    "porque 3",
+    "M1 40% → 42%",
+    "",
+    "10h-10h40 · block 04",
+    "Bloco <4> & cia (M2)",
+    "",
+    "10h45-11h25 · block 05",
+    "Bloco <5> & cia (M3)",
+    "porque 5",
+    "",
+    "11h30-12h10 · block 06",
+    "Bloco <6> & cia (M1)",
+    "M1 40% → 42%",
+    "",
+    "and 3 more in the calendar",
+    "",
+    "HOW THE MILESTONES ARE GOING",
+    "Semana em ritmo.",
+    "",
+    "- M1 segue firme",
+    "- M2 segue firme",
+    "- M3 segue firme",
+    "- M4 segue firme",
+    "- M5 segue firme",
+    "- M6 segue firme",
+    "- M7 segue firme",
+    "- M8 segue firme",
+    "",
+    "HOW IT WORKS",
+    "Leave the block in the calendar = done? · delete it =",
+    "skipped · move it = reschedule.",
+    "",
+    "NOTES",
+    "- aviso 0",
+    "- aviso 1",
+    "- aviso 2",
+    "",
+    "See the day in Google Calendar:",
+    "https://calendar.google.com/calendar/r/day/2026/09/28",
+    "Check-in: /goal-pacer checkin · Status: /goal-pacer status",
+    "To confirm without opening the calendar, reply to this email",
+    "with one line per block: 02 done 1h, or 03 skipped.",
+    ""
+   ],
+   "html": "<div style=\"max-width:560px;margin:0 auto;background:#ffffff;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:1.45;color:#111;\">\n<h1 style=\"font-size:20px;margin:0 0 4px 0;\">Segunda, 28/09</h1>\n<p style=\"margin:0;color:#444;\">8 blocos · 1 confirmada</p>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\"><p style=\"font-size:16px;font-weight:600;color:#111;margin:0 0 6px 0;\">Needs a decision (M3)</p><p style=\"margin:0 0 6px 0;\">Com as janelas até 30/10 dá para cobrir 62%.</p><p style=\"margin:0;color:#444;\">Answer in /goal-pacer checkin.</p></div>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\"><p style=\"font-size:16px;font-weight:600;color:#111;margin:0 0 6px 0;\">Today</p>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">07h45-08h25 · block 01</div><div style=\"font-weight:600;\">Bloco &lt;1&gt; &amp; cia (M2)</div><div style=\"color:#444;\">porque 1</div></td></tr></table>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">08h30-09h10 · block 02</div><div style=\"font-weight:600;\">Bloco &lt;2&gt; &amp; cia (M3)</div></td></tr></table>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">09h15-09h55 · block 03</div><div style=\"font-weight:600;\">Bloco &lt;3&gt; &amp; cia (M1)</div><div style=\"color:#444;\">porque 3</div><div style=\"font-size:13px;color:#666;\">M1 40% → 42%</div></td></tr></table>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">10h-10h40 · block 04</div><div style=\"font-weight:600;\">Bloco &lt;4&gt; &amp; cia (M2)</div></td></tr></table>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">10h45-11h25 · block 05</div><div style=\"font-weight:600;\">Bloco &lt;5&gt; &amp; cia (M3)</div><div style=\"color:#444;\">porque 5</div></td></tr></table>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">11h30-12h10 · block 06</div><div style=\"font-weight:600;\">Bloco &lt;6&gt; &amp; cia (M1)</div><div style=\"font-size:13px;color:#666;\">M1 40% → 42%</div></td></tr></table>\n<p style=\"margin:0;color:#444;\">and 3 more in the calendar</p>\n</div>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\"><p style=\"font-size:16px;font-weight:600;color:#111;margin:0 0 6px 0;\">How the milestones are going</p>\n<p style=\"margin:0 0 8px 0;font-weight:bold;\">Semana em ritmo.</p>\n<p style=\"margin:0 0 4px 0;\">M1 segue firme</p>\n<p style=\"margin:0 0 4px 0;\">M2 segue firme</p>\n<p style=\"margin:0 0 4px 0;\">M3 segue firme</p>\n<p style=\"margin:0 0 4px 0;\">M4 segue firme</p>\n<p style=\"margin:0 0 4px 0;\">M5 segue firme</p>\n<p style=\"margin:0 0 4px 0;\">M6 segue firme</p>\n<p style=\"margin:0 0 4px 0;\">M7 segue firme</p>\n<p style=\"margin:0 0 4px 0;\">M8 segue firme</p>\n</div>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\"><p style=\"font-size:16px;font-weight:600;color:#111;margin:0 0 6px 0;\">How it works</p><p style=\"margin:0;\">Leave the block in the calendar = done? · delete it = skipped · move it = reschedule.</p></div>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\"><p style=\"font-size:16px;font-weight:600;color:#111;margin:0 0 6px 0;\">Notes</p><p style=\"margin:0;\">aviso 0</p><p style=\"margin:0;\">aviso 1</p><p style=\"margin:0;\">aviso 2</p></div>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\">\n<a href=\"https://calendar.google.com/calendar/r/day/2026/09/28\" style=\"display:inline-block;min-height:44px;line-height:44px;color:#111;text-decoration:underline;\">See the day in Google Calendar</a>\n<p style=\"margin:6px 0 0 0;font-family:ui-monospace, Menlo, Consolas, monospace;font-size:13px;color:#666;\">Check-in: /goal-pacer checkin · Status: /goal-pacer status</p>\n</div></div>\n",
+   "modelo": {
+    "assunto": "[goal-pacer] Mon Sep 28 · 9 blocks · M3 needs a decision",
+    "avisos": [
+     "aviso 0",
+     "aviso 1",
+     "aviso 2"
+    ],
+    "comecando": true,
+    "data": "2026-09-28",
+    "decisao": {
+     "meta": "M3",
+     "texto": "Com as janelas até 30/10 dá para cobrir 62%."
+    },
+    "desde": null,
+    "hoje": [
+     {
+      "efeito": "",
+      "hora": "07h45-08h25 · block 01",
+      "porque": "porque 1",
+      "titulo": "Bloco <1> & cia (M2)"
+     },
+     {
+      "efeito": "",
+      "hora": "08h30-09h10 · block 02",
+      "porque": "",
+      "titulo": "Bloco <2> & cia (M3)"
+     },
+     {
+      "efeito": "M1 40% → 42%",
+      "hora": "09h15-09h55 · block 03",
+      "porque": "porque 3",
+      "titulo": "Bloco <3> & cia (M1)"
+     },
+     {
+      "efeito": "",
+      "hora": "10h-10h40 · block 04",
+      "porque": "",
+      "titulo": "Bloco <4> & cia (M2)"
+     },
+     {
+      "efeito": "",
+      "hora": "10h45-11h25 · block 05",
+      "porque": "porque 5",
+      "titulo": "Bloco <5> & cia (M3)"
+     },
+     {
+      "efeito": "M1 40% → 42%",
+      "hora": "11h30-12h10 · block 06",
+      "porque": "",
+      "titulo": "Bloco <6> & cia (M1)"
+     }
+    ],
+    "hoje_mais": 3,
+    "link": "https://calendar.google.com/calendar/r/day/2026/09/28",
+    "primeiro_dia": true,
+    "progresso": [
+     "M1 segue firme",
+     "M2 segue firme",
+     "M3 segue firme",
+     "M4 segue firme",
+     "M5 segue firme",
+     "M6 segue firme",
+     "M7 segue firme",
+     "M8 segue firme"
+    ],
+    "progresso_manchete": "Semana em ritmo.",
+    "resumo": "8 blocos · 1 confirmada",
+    "titulo": "Segunda, 28/09"
+   }
+  },
+  "en/so_contagem_e_comecando": {
+   "assunto": "[goal-pacer] Mon Sep 28 · 9 blocks",
+   "corpo": [
+    "Segunda, 28/09",
+    "8 blocos · 1 confirmada",
+    "",
+    "TODAY",
+    "07h45-08h25 · block 01",
+    "Bloco <1> & cia (M2)",
+    "porque 1",
+    "",
+    "08h30-09h10 · block 02",
+    "Bloco <2> & cia (M3)",
+    "",
+    "09h15-09h55 · block 03",
+    "Bloco <3> & cia (M1)",
+    "porque 3",
+    "M1 40% → 42%",
+    "",
+    "10h-10h40 · block 04",
+    "Bloco <4> & cia (M2)",
+    "",
+    "10h45-11h25 · block 05",
+    "Bloco <5> & cia (M3)",
+    "porque 5",
+    "",
+    "11h30-12h10 · block 06",
+    "Bloco <6> & cia (M1)",
+    "M1 40% → 42%",
+    "",
+    "and 3 more in the calendar",
+    "",
+    "SINCE SÁB",
+    "1 confirmada · 2 feita?",
+    "",
+    "HOW THE MILESTONES ARE GOING",
+    "getting started",
+    "",
+    "NOTES",
+    "- aviso 0",
+    "- aviso 1",
+    "- aviso 2",
+    "",
+    "See the day in Google Calendar:",
+    "https://calendar.google.com/calendar/r/day/2026/09/28",
+    "Check-in: /goal-pacer checkin · Status: /goal-pacer status",
+    "To confirm without opening the calendar, reply to this email",
+    "with one line per block: 02 done 1h, or 03 skipped.",
+    "Leave the block in the calendar = done? · delete it =",
+    "skipped · move it = reschedule.",
+    ""
+   ],
+   "html": "<div style=\"max-width:560px;margin:0 auto;background:#ffffff;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:1.45;color:#111;\">\n<h1 style=\"font-size:20px;margin:0 0 4px 0;\">Segunda, 28/09</h1>\n<p style=\"margin:0;color:#444;\">8 blocos · 1 confirmada</p>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\"><p style=\"font-size:16px;font-weight:600;color:#111;margin:0 0 6px 0;\">Today</p>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">07h45-08h25 · block 01</div><div style=\"font-weight:600;\">Bloco &lt;1&gt; &amp; cia (M2)</div><div style=\"color:#444;\">porque 1</div></td></tr></table>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">08h30-09h10 · block 02</div><div style=\"font-weight:600;\">Bloco &lt;2&gt; &amp; cia (M3)</div></td></tr></table>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">09h15-09h55 · block 03</div><div style=\"font-weight:600;\">Bloco &lt;3&gt; &amp; cia (M1)</div><div style=\"color:#444;\">porque 3</div><div style=\"font-size:13px;color:#666;\">M1 40% → 42%</div></td></tr></table>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">10h-10h40 · block 04</div><div style=\"font-weight:600;\">Bloco &lt;4&gt; &amp; cia (M2)</div></td></tr></table>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">10h45-11h25 · block 05</div><div style=\"font-weight:600;\">Bloco &lt;5&gt; &amp; cia (M3)</div><div style=\"color:#444;\">porque 5</div></td></tr></table>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">11h30-12h10 · block 06</div><div style=\"font-weight:600;\">Bloco &lt;6&gt; &amp; cia (M1)</div><div style=\"font-size:13px;color:#666;\">M1 40% → 42%</div></td></tr></table>\n<p style=\"margin:0;color:#444;\">and 3 more in the calendar</p>\n</div>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\"><p style=\"font-size:16px;font-weight:600;color:#111;margin:0 0 6px 0;\">Since sáb</p>\n<p style=\"margin:0 0 6px 0;color:#444;\">1 confirmada · 2 feita?</p>\n</div>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\"><p style=\"font-size:16px;font-weight:600;color:#111;margin:0 0 6px 0;\">How the milestones are going</p>\n<p style=\"margin:0;\">getting started</p>\n</div>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\"><p style=\"font-size:16px;font-weight:600;color:#111;margin:0 0 6px 0;\">Notes</p><p style=\"margin:0;\">aviso 0</p><p style=\"margin:0;\">aviso 1</p><p style=\"margin:0;\">aviso 2</p></div>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\">\n<a href=\"https://calendar.google.com/calendar/r/day/2026/09/28\" style=\"display:inline-block;min-height:44px;line-height:44px;color:#111;text-decoration:underline;\">See the day in Google Calendar</a>\n<p style=\"margin:6px 0 0 0;font-family:ui-monospace, Menlo, Consolas, monospace;font-size:13px;color:#666;\">Check-in: /goal-pacer checkin · Status: /goal-pacer status</p>\n<p style=\"margin:6px 0 0 0;font-size:13px;color:#666;\">Leave the block in the calendar = done? · delete it = skipped · move it = reschedule.</p>\n</div></div>\n",
+   "modelo": {
+    "assunto": "[goal-pacer] Mon Sep 28 · 9 blocks",
+    "avisos": [
+     "aviso 0",
+     "aviso 1",
+     "aviso 2"
+    ],
+    "comecando": true,
+    "data": "2026-09-28",
+    "decisao": null,
+    "desde": {
+     "contagem": "1 confirmada · 2 feita?",
+     "dia": "sáb",
+     "linhas": []
+    },
+    "hoje": [
+     {
+      "efeito": "",
+      "hora": "07h45-08h25 · block 01",
+      "porque": "porque 1",
+      "titulo": "Bloco <1> & cia (M2)"
+     },
+     {
+      "efeito": "",
+      "hora": "08h30-09h10 · block 02",
+      "porque": "",
+      "titulo": "Bloco <2> & cia (M3)"
+     },
+     {
+      "efeito": "M1 40% → 42%",
+      "hora": "09h15-09h55 · block 03",
+      "porque": "porque 3",
+      "titulo": "Bloco <3> & cia (M1)"
+     },
+     {
+      "efeito": "",
+      "hora": "10h-10h40 · block 04",
+      "porque": "",
+      "titulo": "Bloco <4> & cia (M2)"
+     },
+     {
+      "efeito": "",
+      "hora": "10h45-11h25 · block 05",
+      "porque": "porque 5",
+      "titulo": "Bloco <5> & cia (M3)"
+     },
+     {
+      "efeito": "M1 40% → 42%",
+      "hora": "11h30-12h10 · block 06",
+      "porque": "",
+      "titulo": "Bloco <6> & cia (M1)"
+     }
+    ],
+    "hoje_mais": 3,
+    "link": "https://calendar.google.com/calendar/r/day/2026/09/28",
+    "primeiro_dia": false,
+    "progresso": [],
+    "progresso_manchete": "Semana em ritmo.",
+    "resumo": "8 blocos · 1 confirmada",
+    "titulo": "Segunda, 28/09"
+   }
+  },
+  "en/vazio": {
+   "assunto": "[goal-pacer] Mon Sep 28 · no blocks",
+   "corpo": [
+    "Monday, Sep 28",
+    "8 blocos · 1 confirmada",
+    "",
+    "TODAY",
+    "8 blocos · 1 confirmada",
+    "HOW THE MILESTONES ARE GOING",
+    "getting started",
+    "",
+    "See the day in Google Calendar:",
+    "https://calendar.google.com/calendar/r/day/2026/09/28",
+    "Check-in: /goal-pacer checkin · Status: /goal-pacer status",
+    "Leave the block in the calendar = done? · delete it =",
+    "skipped · move it = reschedule.",
+    ""
+   ],
+   "html": "<div style=\"max-width:560px;margin:0 auto;background:#ffffff;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:1.45;color:#111;\">\n<h1 style=\"font-size:20px;margin:0 0 4px 0;\">Monday, Sep 28</h1>\n<p style=\"margin:0;color:#444;\">8 blocos · 1 confirmada</p>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\"><p style=\"font-size:16px;font-weight:600;color:#111;margin:0 0 6px 0;\">Today</p>\n<p style=\"margin:0;\">8 blocos · 1 confirmada</p>\n</div>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\"><p style=\"font-size:16px;font-weight:600;color:#111;margin:0 0 6px 0;\">How the milestones are going</p>\n<p style=\"margin:0;\">getting started</p>\n</div>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\">\n<a href=\"https://calendar.google.com/calendar/r/day/2026/09/28\" style=\"display:inline-block;min-height:44px;line-height:44px;color:#111;text-decoration:underline;\">See the day in Google Calendar</a>\n<p style=\"margin:6px 0 0 0;font-family:ui-monospace, Menlo, Consolas, monospace;font-size:13px;color:#666;\">Check-in: /goal-pacer checkin · Status: /goal-pacer status</p>\n<p style=\"margin:6px 0 0 0;font-size:13px;color:#666;\">Leave the block in the calendar = done? · delete it = skipped · move it = reschedule.</p>\n</div></div>\n",
+   "modelo": {
+    "assunto": "[goal-pacer] Mon Sep 28 · no blocks",
+    "avisos": [],
+    "comecando": true,
+    "data": "2026-09-28",
+    "decisao": null,
+    "desde": null,
+    "hoje": [],
+    "hoje_mais": 0,
+    "link": "https://calendar.google.com/calendar/r/day/2026/09/28",
+    "primeiro_dia": false,
+    "progresso": [],
+    "progresso_manchete": "",
+    "resumo": "8 blocos · 1 confirmada",
+    "titulo": "Monday, Sep 28"
+   }
+  },
+  "pt-BR/cheio": {
+   "assunto": "[goal-pacer] Seg 28/09 · 9 blocos",
+   "corpo": [
+    "Segunda, 28/09",
+    "8 blocos · 1 confirmada",
+    "",
+    "HOJE",
+    "07h45-08h25 · bloco 01",
+    "Bloco <1> & cia (M2)",
+    "porque 1",
+    "",
+    "08h30-09h10 · bloco 02",
+    "Bloco <2> & cia (M3)",
+    "",
+    "09h15-09h55 · bloco 03",
+    "Bloco <3> & cia (M1)",
+    "porque 3",
+    "M1 40% → 42%",
+    "",
+    "10h-10h40 · bloco 04",
+    "Bloco <4> & cia (M2)",
+    "",
+    "10h45-11h25 · bloco 05",
+    "Bloco <5> & cia (M3)",
+    "porque 5",
+    "",
+    "11h30-12h10 · bloco 06",
+    "Bloco <6> & cia (M1)",
+    "M1 40% → 42%",
+    "",
+    "e mais 3 na agenda",
+    "",
+    "DESDE SÁB",
+    "1 confirmada · 2 feita?",
+    "- linha 0",
+    "- linha 1",
+    "- linha 2",
+    "- linha 3",
+    "- linha 4",
+    "- linha 5",
+    "",
+    "COMO VÃO AS METAS",
+    "Semana em ritmo.",
+    "",
+    "- M1 segue firme",
+    "- M2 segue firme",
+    "- M3 segue firme",
+    "- M4 segue firme",
+    "- M5 segue firme",
+    "- M6 segue firme",
+    "- M7 segue firme",
+    "- M8 segue firme",
+    "",
+    "AVISOS",
+    "- aviso 0",
+    "- aviso 1",
+    "- aviso 2",
+    "",
+    "Ver o dia no Google Calendar:",
+    "https://calendar.google.com/calendar/r/day/2026/09/28",
+    "Check-in: /goal-pacer checkin · Status: /goal-pacer status",
+    "Para confirmar sem abrir a agenda, responda este email com",
+    "uma linha por bloco: 02 fiz 1h, ou 03 não fiz.",
+    "Deixe o bloco na agenda = feita? · apague = não fiz · mova =",
+    "reagendar.",
+    ""
+   ],
+   "html": "<div style=\"max-width:560px;margin:0 auto;background:#ffffff;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:1.45;color:#111;\">\n<h1 style=\"font-size:20px;margin:0 0 4px 0;\">Segunda, 28/09</h1>\n<p style=\"margin:0;color:#444;\">8 blocos · 1 confirmada</p>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\"><p style=\"font-size:16px;font-weight:600;color:#111;margin:0 0 6px 0;\">Hoje</p>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">07h45-08h25 · bloco 01</div><div style=\"font-weight:600;\">Bloco &lt;1&gt; &amp; cia (M2)</div><div style=\"color:#444;\">porque 1</div></td></tr></table>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">08h30-09h10 · bloco 02</div><div style=\"font-weight:600;\">Bloco &lt;2&gt; &amp; cia (M3)</div></td></tr></table>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">09h15-09h55 · bloco 03</div><div style=\"font-weight:600;\">Bloco &lt;3&gt; &amp; cia (M1)</div><div style=\"color:#444;\">porque 3</div><div style=\"font-size:13px;color:#666;\">M1 40% → 42%</div></td></tr></table>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">10h-10h40 · bloco 04</div><div style=\"font-weight:600;\">Bloco &lt;4&gt; &amp; cia (M2)</div></td></tr></table>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">10h45-11h25 · bloco 05</div><div style=\"font-weight:600;\">Bloco &lt;5&gt; &amp; cia (M3)</div><div style=\"color:#444;\">porque 5</div></td></tr></table>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">11h30-12h10 · bloco 06</div><div style=\"font-weight:600;\">Bloco &lt;6&gt; &amp; cia (M1)</div><div style=\"font-size:13px;color:#666;\">M1 40% → 42%</div></td></tr></table>\n<p style=\"margin:0;color:#444;\">e mais 3 na agenda</p>\n</div>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\"><p style=\"font-size:16px;font-weight:600;color:#111;margin:0 0 6px 0;\">Desde sáb</p>\n<p style=\"margin:0 0 6px 0;color:#444;\">1 confirmada · 2 feita?</p>\n<p style=\"margin:0;\">linha 0</p>\n<p style=\"margin:0;\">linha 1</p>\n<p style=\"margin:0;\">linha 2</p>\n<p style=\"margin:0;\">linha 3</p>\n<p style=\"margin:0;\">linha 4</p>\n<p style=\"margin:0;\">linha 5</p>\n</div>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\"><p style=\"font-size:16px;font-weight:600;color:#111;margin:0 0 6px 0;\">Como vão as metas</p>\n<p style=\"margin:0 0 8px 0;font-weight:bold;\">Semana em ritmo.</p>\n<p style=\"margin:0 0 4px 0;\">M1 segue firme</p>\n<p style=\"margin:0 0 4px 0;\">M2 segue firme</p>\n<p style=\"margin:0 0 4px 0;\">M3 segue firme</p>\n<p style=\"margin:0 0 4px 0;\">M4 segue firme</p>\n<p style=\"margin:0 0 4px 0;\">M5 segue firme</p>\n<p style=\"margin:0 0 4px 0;\">M6 segue firme</p>\n<p style=\"margin:0 0 4px 0;\">M7 segue firme</p>\n<p style=\"margin:0 0 4px 0;\">M8 segue firme</p>\n</div>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\"><p style=\"font-size:16px;font-weight:600;color:#111;margin:0 0 6px 0;\">Avisos</p><p style=\"margin:0;\">aviso 0</p><p style=\"margin:0;\">aviso 1</p><p style=\"margin:0;\">aviso 2</p></div>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\">\n<a href=\"https://calendar.google.com/calendar/r/day/2026/09/28\" style=\"display:inline-block;min-height:44px;line-height:44px;color:#111;text-decoration:underline;\">Ver o dia no Google Calendar</a>\n<p style=\"margin:6px 0 0 0;font-family:ui-monospace, Menlo, Consolas, monospace;font-size:13px;color:#666;\">Check-in: /goal-pacer checkin · Status: /goal-pacer status</p>\n<p style=\"margin:6px 0 0 0;font-size:13px;color:#666;\">Deixe o bloco na agenda = feita? · apague = não fiz · mova = reagendar.</p>\n</div></div>\n",
+   "modelo": {
+    "assunto": "[goal-pacer] Seg 28/09 · 9 blocos",
+    "avisos": [
+     "aviso 0",
+     "aviso 1",
+     "aviso 2"
+    ],
+    "comecando": false,
+    "data": "2026-09-28",
+    "decisao": null,
+    "desde": {
+     "contagem": "1 confirmada · 2 feita?",
+     "dia": "sáb",
+     "linhas": [
+      "linha 0",
+      "linha 1",
+      "linha 2",
+      "linha 3",
+      "linha 4",
+      "linha 5"
+     ]
+    },
+    "hoje": [
+     {
+      "efeito": "",
+      "hora": "07h45-08h25 · bloco 01",
+      "porque": "porque 1",
+      "titulo": "Bloco <1> & cia (M2)"
+     },
+     {
+      "efeito": "",
+      "hora": "08h30-09h10 · bloco 02",
+      "porque": "",
+      "titulo": "Bloco <2> & cia (M3)"
+     },
+     {
+      "efeito": "M1 40% → 42%",
+      "hora": "09h15-09h55 · bloco 03",
+      "porque": "porque 3",
+      "titulo": "Bloco <3> & cia (M1)"
+     },
+     {
+      "efeito": "",
+      "hora": "10h-10h40 · bloco 04",
+      "porque": "",
+      "titulo": "Bloco <4> & cia (M2)"
+     },
+     {
+      "efeito": "",
+      "hora": "10h45-11h25 · bloco 05",
+      "porque": "porque 5",
+      "titulo": "Bloco <5> & cia (M3)"
+     },
+     {
+      "efeito": "M1 40% → 42%",
+      "hora": "11h30-12h10 · bloco 06",
+      "porque": "",
+      "titulo": "Bloco <6> & cia (M1)"
+     }
+    ],
+    "hoje_mais": 3,
+    "link": "https://calendar.google.com/calendar/r/day/2026/09/28",
+    "primeiro_dia": false,
+    "progresso": [
+     "M1 segue firme",
+     "M2 segue firme",
+     "M3 segue firme",
+     "M4 segue firme",
+     "M5 segue firme",
+     "M6 segue firme",
+     "M7 segue firme",
+     "M8 segue firme"
+    ],
+    "progresso_manchete": "Semana em ritmo.",
+    "resumo": "8 blocos · 1 confirmada",
+    "titulo": "Segunda, 28/09"
+   }
+  },
+  "pt-BR/decisao_e_primeiro_dia": {
+   "assunto": "[goal-pacer] Seg 28/09 · 9 blocos · M3 precisa de decisão",
+   "corpo": [
+    "Segunda, 28/09",
+    "8 blocos · 1 confirmada",
+    "",
+    "PRECISA DE DECISÃO (M3)",
+    "Com as janelas até 30/10 dá para cobrir 62%.",
+    "Responda em /goal-pacer checkin.",
+    "",
+    "HOJE",
+    "07h45-08h25 · bloco 01",
+    "Bloco <1> & cia (M2)",
+    "porque 1",
+    "",
+    "08h30-09h10 · bloco 02",
+    "Bloco <2> & cia (M3)",
+    "",
+    "09h15-09h55 · bloco 03",
+    "Bloco <3> & cia (M1)",
+    "porque 3",
+    "M1 40% → 42%",
+    "",
+    "10h-10h40 · bloco 04",
+    "Bloco <4> & cia (M2)",
+    "",
+    "10h45-11h25 · bloco 05",
+    "Bloco <5> & cia (M3)",
+    "porque 5",
+    "",
+    "11h30-12h10 · bloco 06",
+    "Bloco <6> & cia (M1)",
+    "M1 40% → 42%",
+    "",
+    "e mais 3 na agenda",
+    "",
+    "COMO VÃO AS METAS",
+    "Semana em ritmo.",
+    "",
+    "- M1 segue firme",
+    "- M2 segue firme",
+    "- M3 segue firme",
+    "- M4 segue firme",
+    "- M5 segue firme",
+    "- M6 segue firme",
+    "- M7 segue firme",
+    "- M8 segue firme",
+    "",
+    "COMO FUNCIONA",
+    "Deixe o bloco na agenda = feita? · apague = não fiz · mova =",
+    "reagendar.",
+    "",
+    "AVISOS",
+    "- aviso 0",
+    "- aviso 1",
+    "- aviso 2",
+    "",
+    "Ver o dia no Google Calendar:",
+    "https://calendar.google.com/calendar/r/day/2026/09/28",
+    "Check-in: /goal-pacer checkin · Status: /goal-pacer status",
+    "Para confirmar sem abrir a agenda, responda este email com",
+    "uma linha por bloco: 02 fiz 1h, ou 03 não fiz.",
+    ""
+   ],
+   "html": "<div style=\"max-width:560px;margin:0 auto;background:#ffffff;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:1.45;color:#111;\">\n<h1 style=\"font-size:20px;margin:0 0 4px 0;\">Segunda, 28/09</h1>\n<p style=\"margin:0;color:#444;\">8 blocos · 1 confirmada</p>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\"><p style=\"font-size:16px;font-weight:600;color:#111;margin:0 0 6px 0;\">Precisa de decisão (M3)</p><p style=\"margin:0 0 6px 0;\">Com as janelas até 30/10 dá para cobrir 62%.</p><p style=\"margin:0;color:#444;\">Responda em /goal-pacer checkin.</p></div>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\"><p style=\"font-size:16px;font-weight:600;color:#111;margin:0 0 6px 0;\">Hoje</p>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">07h45-08h25 · bloco 01</div><div style=\"font-weight:600;\">Bloco &lt;1&gt; &amp; cia (M2)</div><div style=\"color:#444;\">porque 1</div></td></tr></table>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">08h30-09h10 · bloco 02</div><div style=\"font-weight:600;\">Bloco &lt;2&gt; &amp; cia (M3)</div></td></tr></table>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">09h15-09h55 · bloco 03</div><div style=\"font-weight:600;\">Bloco &lt;3&gt; &amp; cia (M1)</div><div style=\"color:#444;\">porque 3</div><div style=\"font-size:13px;color:#666;\">M1 40% → 42%</div></td></tr></table>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">10h-10h40 · bloco 04</div><div style=\"font-weight:600;\">Bloco &lt;4&gt; &amp; cia (M2)</div></td></tr></table>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">10h45-11h25 · bloco 05</div><div style=\"font-weight:600;\">Bloco &lt;5&gt; &amp; cia (M3)</div><div style=\"color:#444;\">porque 5</div></td></tr></table>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">11h30-12h10 · bloco 06</div><div style=\"font-weight:600;\">Bloco &lt;6&gt; &amp; cia (M1)</div><div style=\"font-size:13px;color:#666;\">M1 40% → 42%</div></td></tr></table>\n<p style=\"margin:0;color:#444;\">e mais 3 na agenda</p>\n</div>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\"><p style=\"font-size:16px;font-weight:600;color:#111;margin:0 0 6px 0;\">Como vão as metas</p>\n<p style=\"margin:0 0 8px 0;font-weight:bold;\">Semana em ritmo.</p>\n<p style=\"margin:0 0 4px 0;\">M1 segue firme</p>\n<p style=\"margin:0 0 4px 0;\">M2 segue firme</p>\n<p style=\"margin:0 0 4px 0;\">M3 segue firme</p>\n<p style=\"margin:0 0 4px 0;\">M4 segue firme</p>\n<p style=\"margin:0 0 4px 0;\">M5 segue firme</p>\n<p style=\"margin:0 0 4px 0;\">M6 segue firme</p>\n<p style=\"margin:0 0 4px 0;\">M7 segue firme</p>\n<p style=\"margin:0 0 4px 0;\">M8 segue firme</p>\n</div>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\"><p style=\"font-size:16px;font-weight:600;color:#111;margin:0 0 6px 0;\">Como funciona</p><p style=\"margin:0;\">Deixe o bloco na agenda = feita? · apague = não fiz · mova = reagendar.</p></div>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\"><p style=\"font-size:16px;font-weight:600;color:#111;margin:0 0 6px 0;\">Avisos</p><p style=\"margin:0;\">aviso 0</p><p style=\"margin:0;\">aviso 1</p><p style=\"margin:0;\">aviso 2</p></div>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\">\n<a href=\"https://calendar.google.com/calendar/r/day/2026/09/28\" style=\"display:inline-block;min-height:44px;line-height:44px;color:#111;text-decoration:underline;\">Ver o dia no Google Calendar</a>\n<p style=\"margin:6px 0 0 0;font-family:ui-monospace, Menlo, Consolas, monospace;font-size:13px;color:#666;\">Check-in: /goal-pacer checkin · Status: /goal-pacer status</p>\n</div></div>\n",
+   "modelo": {
+    "assunto": "[goal-pacer] Seg 28/09 · 9 blocos · M3 precisa de decisão",
+    "avisos": [
+     "aviso 0",
+     "aviso 1",
+     "aviso 2"
+    ],
+    "comecando": true,
+    "data": "2026-09-28",
+    "decisao": {
+     "meta": "M3",
+     "texto": "Com as janelas até 30/10 dá para cobrir 62%."
+    },
+    "desde": null,
+    "hoje": [
+     {
+      "efeito": "",
+      "hora": "07h45-08h25 · bloco 01",
+      "porque": "porque 1",
+      "titulo": "Bloco <1> & cia (M2)"
+     },
+     {
+      "efeito": "",
+      "hora": "08h30-09h10 · bloco 02",
+      "porque": "",
+      "titulo": "Bloco <2> & cia (M3)"
+     },
+     {
+      "efeito": "M1 40% → 42%",
+      "hora": "09h15-09h55 · bloco 03",
+      "porque": "porque 3",
+      "titulo": "Bloco <3> & cia (M1)"
+     },
+     {
+      "efeito": "",
+      "hora": "10h-10h40 · bloco 04",
+      "porque": "",
+      "titulo": "Bloco <4> & cia (M2)"
+     },
+     {
+      "efeito": "",
+      "hora": "10h45-11h25 · bloco 05",
+      "porque": "porque 5",
+      "titulo": "Bloco <5> & cia (M3)"
+     },
+     {
+      "efeito": "M1 40% → 42%",
+      "hora": "11h30-12h10 · bloco 06",
+      "porque": "",
+      "titulo": "Bloco <6> & cia (M1)"
+     }
+    ],
+    "hoje_mais": 3,
+    "link": "https://calendar.google.com/calendar/r/day/2026/09/28",
+    "primeiro_dia": true,
+    "progresso": [
+     "M1 segue firme",
+     "M2 segue firme",
+     "M3 segue firme",
+     "M4 segue firme",
+     "M5 segue firme",
+     "M6 segue firme",
+     "M7 segue firme",
+     "M8 segue firme"
+    ],
+    "progresso_manchete": "Semana em ritmo.",
+    "resumo": "8 blocos · 1 confirmada",
+    "titulo": "Segunda, 28/09"
+   }
+  },
+  "pt-BR/so_contagem_e_comecando": {
+   "assunto": "[goal-pacer] Seg 28/09 · 9 blocos",
+   "corpo": [
+    "Segunda, 28/09",
+    "8 blocos · 1 confirmada",
+    "",
+    "HOJE",
+    "07h45-08h25 · bloco 01",
+    "Bloco <1> & cia (M2)",
+    "porque 1",
+    "",
+    "08h30-09h10 · bloco 02",
+    "Bloco <2> & cia (M3)",
+    "",
+    "09h15-09h55 · bloco 03",
+    "Bloco <3> & cia (M1)",
+    "porque 3",
+    "M1 40% → 42%",
+    "",
+    "10h-10h40 · bloco 04",
+    "Bloco <4> & cia (M2)",
+    "",
+    "10h45-11h25 · bloco 05",
+    "Bloco <5> & cia (M3)",
+    "porque 5",
+    "",
+    "11h30-12h10 · bloco 06",
+    "Bloco <6> & cia (M1)",
+    "M1 40% → 42%",
+    "",
+    "e mais 3 na agenda",
+    "",
+    "DESDE SÁB",
+    "1 confirmada · 2 feita?",
+    "",
+    "COMO VÃO AS METAS",
+    "começando",
+    "",
+    "AVISOS",
+    "- aviso 0",
+    "- aviso 1",
+    "- aviso 2",
+    "",
+    "Ver o dia no Google Calendar:",
+    "https://calendar.google.com/calendar/r/day/2026/09/28",
+    "Check-in: /goal-pacer checkin · Status: /goal-pacer status",
+    "Para confirmar sem abrir a agenda, responda este email com",
+    "uma linha por bloco: 02 fiz 1h, ou 03 não fiz.",
+    "Deixe o bloco na agenda = feita? · apague = não fiz · mova =",
+    "reagendar.",
+    ""
+   ],
+   "html": "<div style=\"max-width:560px;margin:0 auto;background:#ffffff;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:1.45;color:#111;\">\n<h1 style=\"font-size:20px;margin:0 0 4px 0;\">Segunda, 28/09</h1>\n<p style=\"margin:0;color:#444;\">8 blocos · 1 confirmada</p>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\"><p style=\"font-size:16px;font-weight:600;color:#111;margin:0 0 6px 0;\">Hoje</p>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">07h45-08h25 · bloco 01</div><div style=\"font-weight:600;\">Bloco &lt;1&gt; &amp; cia (M2)</div><div style=\"color:#444;\">porque 1</div></td></tr></table>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">08h30-09h10 · bloco 02</div><div style=\"font-weight:600;\">Bloco &lt;2&gt; &amp; cia (M3)</div></td></tr></table>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">09h15-09h55 · bloco 03</div><div style=\"font-weight:600;\">Bloco &lt;3&gt; &amp; cia (M1)</div><div style=\"color:#444;\">porque 3</div><div style=\"font-size:13px;color:#666;\">M1 40% → 42%</div></td></tr></table>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">10h-10h40 · bloco 04</div><div style=\"font-weight:600;\">Bloco &lt;4&gt; &amp; cia (M2)</div></td></tr></table>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">10h45-11h25 · bloco 05</div><div style=\"font-weight:600;\">Bloco &lt;5&gt; &amp; cia (M3)</div><div style=\"color:#444;\">porque 5</div></td></tr></table>\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;margin:0 0 10px 0;\"><tr><td><div style=\"font-size:13px;color:#666;\">11h30-12h10 · bloco 06</div><div style=\"font-weight:600;\">Bloco &lt;6&gt; &amp; cia (M1)</div><div style=\"font-size:13px;color:#666;\">M1 40% → 42%</div></td></tr></table>\n<p style=\"margin:0;color:#444;\">e mais 3 na agenda</p>\n</div>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\"><p style=\"font-size:16px;font-weight:600;color:#111;margin:0 0 6px 0;\">Desde sáb</p>\n<p style=\"margin:0 0 6px 0;color:#444;\">1 confirmada · 2 feita?</p>\n</div>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\"><p style=\"font-size:16px;font-weight:600;color:#111;margin:0 0 6px 0;\">Como vão as metas</p>\n<p style=\"margin:0;\">começando</p>\n</div>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\"><p style=\"font-size:16px;font-weight:600;color:#111;margin:0 0 6px 0;\">Avisos</p><p style=\"margin:0;\">aviso 0</p><p style=\"margin:0;\">aviso 1</p><p style=\"margin:0;\">aviso 2</p></div>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\">\n<a href=\"https://calendar.google.com/calendar/r/day/2026/09/28\" style=\"display:inline-block;min-height:44px;line-height:44px;color:#111;text-decoration:underline;\">Ver o dia no Google Calendar</a>\n<p style=\"margin:6px 0 0 0;font-family:ui-monospace, Menlo, Consolas, monospace;font-size:13px;color:#666;\">Check-in: /goal-pacer checkin · Status: /goal-pacer status</p>\n<p style=\"margin:6px 0 0 0;font-size:13px;color:#666;\">Deixe o bloco na agenda = feita? · apague = não fiz · mova = reagendar.</p>\n</div></div>\n",
+   "modelo": {
+    "assunto": "[goal-pacer] Seg 28/09 · 9 blocos",
+    "avisos": [
+     "aviso 0",
+     "aviso 1",
+     "aviso 2"
+    ],
+    "comecando": true,
+    "data": "2026-09-28",
+    "decisao": null,
+    "desde": {
+     "contagem": "1 confirmada · 2 feita?",
+     "dia": "sáb",
+     "linhas": []
+    },
+    "hoje": [
+     {
+      "efeito": "",
+      "hora": "07h45-08h25 · bloco 01",
+      "porque": "porque 1",
+      "titulo": "Bloco <1> & cia (M2)"
+     },
+     {
+      "efeito": "",
+      "hora": "08h30-09h10 · bloco 02",
+      "porque": "",
+      "titulo": "Bloco <2> & cia (M3)"
+     },
+     {
+      "efeito": "M1 40% → 42%",
+      "hora": "09h15-09h55 · bloco 03",
+      "porque": "porque 3",
+      "titulo": "Bloco <3> & cia (M1)"
+     },
+     {
+      "efeito": "",
+      "hora": "10h-10h40 · bloco 04",
+      "porque": "",
+      "titulo": "Bloco <4> & cia (M2)"
+     },
+     {
+      "efeito": "",
+      "hora": "10h45-11h25 · bloco 05",
+      "porque": "porque 5",
+      "titulo": "Bloco <5> & cia (M3)"
+     },
+     {
+      "efeito": "M1 40% → 42%",
+      "hora": "11h30-12h10 · bloco 06",
+      "porque": "",
+      "titulo": "Bloco <6> & cia (M1)"
+     }
+    ],
+    "hoje_mais": 3,
+    "link": "https://calendar.google.com/calendar/r/day/2026/09/28",
+    "primeiro_dia": false,
+    "progresso": [],
+    "progresso_manchete": "Semana em ritmo.",
+    "resumo": "8 blocos · 1 confirmada",
+    "titulo": "Segunda, 28/09"
+   }
+  },
+  "pt-BR/vazio": {
+   "assunto": "[goal-pacer] Seg 28/09 · sem blocos",
+   "corpo": [
+    "Segunda, 28/09",
+    "8 blocos · 1 confirmada",
+    "",
+    "HOJE",
+    "8 blocos · 1 confirmada",
+    "COMO VÃO AS METAS",
+    "começando",
+    "",
+    "Ver o dia no Google Calendar:",
+    "https://calendar.google.com/calendar/r/day/2026/09/28",
+    "Check-in: /goal-pacer checkin · Status: /goal-pacer status",
+    "Deixe o bloco na agenda = feita? · apague = não fiz · mova =",
+    "reagendar.",
+    ""
+   ],
+   "html": "<div style=\"max-width:560px;margin:0 auto;background:#ffffff;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:1.45;color:#111;\">\n<h1 style=\"font-size:20px;margin:0 0 4px 0;\">Segunda, 28/09</h1>\n<p style=\"margin:0;color:#444;\">8 blocos · 1 confirmada</p>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\"><p style=\"font-size:16px;font-weight:600;color:#111;margin:0 0 6px 0;\">Hoje</p>\n<p style=\"margin:0;\">8 blocos · 1 confirmada</p>\n</div>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\"><p style=\"font-size:16px;font-weight:600;color:#111;margin:0 0 6px 0;\">Como vão as metas</p>\n<p style=\"margin:0;\">começando</p>\n</div>\n<div style=\"border-top:1px solid #ddd;padding-top:14px;margin-top:14px;\">\n<a href=\"https://calendar.google.com/calendar/r/day/2026/09/28\" style=\"display:inline-block;min-height:44px;line-height:44px;color:#111;text-decoration:underline;\">Ver o dia no Google Calendar</a>\n<p style=\"margin:6px 0 0 0;font-family:ui-monospace, Menlo, Consolas, monospace;font-size:13px;color:#666;\">Check-in: /goal-pacer checkin · Status: /goal-pacer status</p>\n<p style=\"margin:6px 0 0 0;font-size:13px;color:#666;\">Deixe o bloco na agenda = feita? · apague = não fiz · mova = reagendar.</p>\n</div></div>\n",
+   "modelo": {
+    "assunto": "[goal-pacer] Seg 28/09 · sem blocos",
+    "avisos": [],
+    "comecando": true,
+    "data": "2026-09-28",
+    "decisao": null,
+    "desde": null,
+    "hoje": [],
+    "hoje_mais": 0,
+    "link": "https://calendar.google.com/calendar/r/day/2026/09/28",
+    "primeiro_dia": false,
+    "progresso": [],
+    "progresso_manchete": "",
+    "resumo": "8 blocos · 1 confirmada",
+    "titulo": "Segunda, 28/09"
+   }
+  }
+ },
+ "ids": [
+  {
+   "calendar_event_id": "ja-tinha",
+   "calendar_id": "metas",
+   "id": "D-2026-09-28-01",
+   "inicio": "07:00",
+   "meta": "M01",
+   "titulo": "Ler"
+  },
+  {
+   "id": "D-2026-09-28-04",
+   "inicio": "07:00",
+   "meta": "M03",
+   "titulo": "Novo"
+  },
+  {
+   "id": "D-2026-09-28-03",
+   "inicio": "08:00",
+   "meta": "M02",
+   "titulo": "Correr"
+  },
+  {
+   "id": "D-2026-09-28-05",
+   "inicio": "09:00",
+   "meta": "M01",
+   "titulo": "Ler"
+  }
+ ],
+ "ler_dia": {
+  "avisos": [],
+  "blocos": [
+   {
+    "calendar_event_id": "evt-25-01",
+    "calendar_id": "metas-fixture@group.calendar.google.com",
+    "duracao_h": 1.0,
+    "efeito": "",
+    "estado": "feita",
+    "fim": "2026-09-25 09:00:00-03:00",
+    "id": "D-2026-09-25-01",
+    "inicio": "2026-09-25 08:00:00-03:00",
+    "meta": "M01",
+    "origem": "confirmado",
+    "porque": "",
+    "semana": "2026-W39",
+    "titulo": "Terminar o curso de estatística"
+   }
+  ],
+  "data": "2026-09-25",
+  "desde": [],
+  "desde_contagem": "",
+  "desde_dia": null,
+  "fm": {
+   "data": "2026-09-25",
+   "run_id": "fx-sex"
+  },
+  "progresso": [],
+  "progresso_manchete": "",
+  "resumo": "",
+  "titulo": ""
+ }
+}

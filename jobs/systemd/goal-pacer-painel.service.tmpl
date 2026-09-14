@@ -1,0 +1,21 @@
+# Goal Pacer: painel sempre no ar (--local por padrão; --rede com install.sh --painel-rede, para o celular no Wi-Fi de casa).
+[Unit]
+Description=Goal Pacer: painel
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory={{JOBS}}
+Environment="GP_RAIZ={{RAIZ}}"
+Environment="GP_DATA_DIR={{DADOS}}"
+Environment="GP_CLAUDE_BIN={{CLAUDE}}"
+Environment="PATH=/usr/local/bin:/usr/bin:/bin"
+Environment="LANG=C.UTF-8"
+ExecStart="{{PYTHON3}}" "{{APP}}/scripts/web.py" {{MODO_PAINEL}}
+Restart=on-failure
+RestartSec=30
+UMask=0077
+NoNewPrivileges=yes
+
+[Install]
+WantedBy=default.target

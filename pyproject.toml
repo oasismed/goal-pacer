@@ -1,0 +1,75 @@
+# Só configuração de ferramentas de desenvolvimento (ruff, ty, coverage, complexipy; versões em requirements-dev.txt). O app roda com a biblioteca padrão
+# do Python 3.9+ e não é instalado por pip: nada aqui entra no runtime.
+
+[tool.ruff]
+target-version = "py39"
+line-length = 120
+extend-exclude = ["jobs/spike"]
+src = ["scripts", "jobs", "tests", "dev"]  # módulos do repo contam como primeiros na ordem dos imports
+
+[tool.ruff.format]
+# Formatação única (manual de qualidade, 13/09): o formatador decide quebras e aspas; ninguém discute estilo em revisão.
+quote-style = "double"
+
+[tool.ruff.lint]
+# Famílias escolhidas pelo manual de qualidade (13/09): erros reais (F, E, W, B, PLE, PLW), segurança (S), exceções
+# específicas (BLE, TRY), datas com fuso (DTZ: o relógio é o clock.py), simplificações e desperdício (SIM, C4, PIE,
+# PERF, FURB, RUF), argumentos mortos (ARG), nomes que sombreiam embutidos (A), ordem dos imports (I) e complexidade (C90).
+select = [
+  "E", "F", "W", "I", "B", "UP", "BLE", "S", "C90", "RUF", "PLE", "PLW", "SIM", "C4", "PIE", "PERF", "FURB", "TRY", "DTZ",
+  "ARG", "A", "EXE", "ISC", "LOG", "G", "PGH", "FLY", "T10",
+  "PLR0124", "PLR1714", "PLR1704", "PLR5501", "PLR1730", "PLR1733", "PLR1736", "PLC0206",
+]
+ignore = [
+  "E501",    # o formatador quebra o código em 120 colunas; strings e comentários longos ficam como estão
+  "UP031",   # formatação com % é o estilo do projeto
+  "UP045",   # X | None em runtime quebra o Python 3.9 (regra do AGENTS.md)
+  "UP007",   # idem, Union
+  "UP035",   # typing.Callable etc.: mantidos pela leitura igual à do resto do código em 3.9
+  "S603",    # subprocess com lista de argumentos conferida (proxy, jobs, instalador)
+  "S607",    # binários por nome conferido (git, launchctl, systemctl) com caminho absoluto quando existe
+  "S104",    # 0.0.0.0 só no painel --rede, com pareamento
+  "S311",    # random só no demo sintético; segredos usam secrets
+  "S101",    # assert só em invariantes internas do proxy
+  "E741",    # l e O curtos em compreensões são o estilo do projeto
+  "TRY003",  # mensagem de erro montada no raise é o formato do GpErro(codigo, mensagem)
+  "RUF001", "RUF002", "RUF003",  # texto em pt-BR usa ×, − e espaços finos de propósito (copy, docstrings)
+  "PLW0603", # clock e copy guardam o agora, o fuso e o idioma fixados pelo CLI num global explícito
+  "PERF203", # try dentro de laço: custo desprezível aqui e o laço fica mais claro
+  "A005",    # goalpacer.io e goalpacer.copy só são importados pelo nome do pacote
+]
+
+[tool.ruff.lint.isort]
+combine-as-imports = true  # from goalpacer import base, registro as reg: o estilo do projeto
+
+[tool.ruff.lint.mccabe]
+max-complexity = 25  # trava a piora; a catraca fina é a complexidade cognitiva (complexipy, teto 15)
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["S", "B011", "B017", "BLE001", "C901", "PLW1510", "ARG", "DTZ", "TRY", "PERF401"]
+# main() dos CLIs: o try cobre o corpo inteiro e o except GpErro é a única saída de erro (texto ou JSON)
+"scripts/*.py" = ["TRY300", "TRY301"]
+# lista de nomes que o vulture deve considerar usados: expressões soltas de propósito
+"dev/vulture_permitidos.py" = ["B018", "F821"]
+
+[tool.complexipy]
+# Complexidade cognitiva (SonarSource S3776): teto 15 por função. As funções acima do teto na linha de base estão em
+# complexipy-snapshot.json; o complexipy falha se uma delas piorar ou se uma função nova passar de 15, e aperta o
+# snapshot quando uma melhora (commite o arquivo). Rodado por dev/verificar.py.
+paths = ["scripts", "jobs/run_job.py", "dev"]
+max-complexity-allowed = 15
+exclude = ["jobs/spike"]
+
+[tool.ty.environment]
+python-version = "3.9"
+extra-paths = ["scripts"]
+
+[tool.ty.src]
+exclude = ["jobs/spike"]
+
+[tool.coverage.run]
+source = ["scripts", "jobs"]
+branch = true
+omit = ["jobs/spike/*"]
+patch = ["subprocess"]  # mede também os CLIs que os testes rodam em subprocesso
+parallel = true

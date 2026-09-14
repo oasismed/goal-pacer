@@ -1,0 +1,18 @@
+{
+  "summary": "pessoa@exemplo.test",
+  "events": [
+    {
+      "id": "evt-reuniao", "summary": "Reunião sintética", "status": "confirmed", "description": "pauta de terceiro",
+      "start": {"dateTime": "2026-09-28T10:00:00-03:00"}, "end": {"dateTime": "2026-09-28T11:00:00-03:00"},
+      "attendees": [{"email": "pessoa@exemplo.test", "self": true, "responseStatus": "accepted"}]
+    },
+    {
+      "id": "evt-livre", "summary": "Foco (livre)", "status": "confirmed", "transparency": "transparent",
+      "start": {"dateTime": "2026-09-28T12:00:00-03:00"}, "end": {"dateTime": "2026-09-28T13:00:00-03:00"}
+    },
+    {
+      "id": "evt-almoco", "summary": "Almoço", "status": "confirmed",
+      "start": {"dateTime": "2026-09-28T13:00:00-03:00"}, "end": {"dateTime": "2026-09-28T14:00:00-03:00"}
+    }
+  ]
+}

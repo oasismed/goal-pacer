@@ -1,0 +1,605 @@
+{
+ "clone_autoteste_quebra": {
+  "arquivos_do_app": {
+   "app/scripts/versao.txt": "antiga\n"
+  },
+  "codigo": 3,
+  "comandos": [
+   "git -C app",
+   "git -C app",
+   "git -C app",
+   "tag --list",
+   "assinatura",
+   "git -C app",
+   "backup",
+   "git -C app",
+   "autoteste.py",
+   "git -C app"
+  ],
+  "falas": [
+   [
+    "update_tag",
+    [
+     "tag"
+    ]
+   ],
+   [
+    "update_backup",
+    [
+     "backup"
+    ]
+   ],
+   [
+    "update_desfeito",
+    [
+     "motivo"
+    ]
+   ]
+  ],
+  "instalacao_gravada": [],
+  "lock_liberado": true
+ },
+ "clone_autoteste_reprova": {
+  "arquivos_do_app": {
+   "app/scripts/versao.txt": "antiga\n"
+  },
+  "codigo": 3,
+  "comandos": [
+   "git -C app",
+   "rev-parse",
+   "git -C app",
+   "tag --list",
+   "assinatura",
+   "git -C app",
+   "backup",
+   "git -C app",
+   "autoteste.py",
+   "git -C app"
+  ],
+  "falas": [
+   [
+    "update_tag",
+    [
+     "tag"
+    ]
+   ],
+   [
+    "update_backup",
+    [
+     "backup"
+    ]
+   ],
+   [
+    "update_desfeito",
+    [
+     "motivo"
+    ]
+   ]
+  ],
+  "instalacao_gravada": [],
+  "lock_liberado": true
+ },
+ "clone_checkout_falha": {
+  "arquivos_do_app": {
+   "app/scripts/versao.txt": "antiga\n"
+  },
+  "codigo": 4,
+  "comandos": [
+   "git -C app",
+   "git -C app",
+   "git -C app",
+   "tag --list",
+   "assinatura",
+   "git -C app",
+   "backup",
+   "checkout"
+  ],
+  "falas": [
+   [
+    "update_tag",
+    [
+     "tag"
+    ]
+   ],
+   [
+    "update_backup",
+    [
+     "backup"
+    ]
+   ],
+   [
+    "update_git",
+    [
+     "app",
+     "erro",
+     "tag"
+    ]
+   ]
+  ],
+  "instalacao_gravada": [],
+  "lock_liberado": true
+ },
+ "clone_commit_local_fora_da_tag": {
+  "arquivos_do_app": {
+   "app/scripts/versao.txt": "antiga\n"
+  },
+  "codigo": 4,
+  "comandos": [
+   "git -C app",
+   "git -C app",
+   "git -C app",
+   "tag --list",
+   "assinatura",
+   "merge-base"
+  ],
+  "falas": [
+   [
+    "update_recusado",
+    [
+     "motivo"
+    ]
+   ]
+  ],
+  "instalacao_gravada": [],
+  "lock_liberado": true
+ },
+ "clone_em_dia": {
+  "arquivos_do_app": {
+   "app/scripts/versao.txt": "antiga\n"
+  },
+  "codigo": 0,
+  "comandos": [
+   "git -C app",
+   "git -C app",
+   "git -C app",
+   "tag --list"
+  ],
+  "falas": [
+   [
+    "update_em_dia",
+    [
+     "versao"
+    ]
+   ]
+  ],
+  "instalacao_gravada": [],
+  "lock_liberado": true
+ },
+ "clone_fetch_falha": {
+  "arquivos_do_app": {
+   "app/scripts/versao.txt": "antiga\n"
+  },
+  "codigo": 4,
+  "comandos": [
+   "git -C app",
+   "git -C app",
+   "fetch"
+  ],
+  "falas": [
+   [
+    "update_recusado",
+    [
+     "motivo"
+    ]
+   ]
+  ],
+  "instalacao_gravada": [],
+  "lock_liberado": true
+ },
+ "clone_migrar_falha": {
+  "arquivos_do_app": {
+   "app/scripts/versao.txt": "antiga\n"
+  },
+  "codigo": 3,
+  "comandos": [
+   "git -C app",
+   "git -C app",
+   "git -C app",
+   "tag --list",
+   "assinatura",
+   "git -C app",
+   "backup",
+   "git -C app",
+   "py autoteste.py",
+   "migrar.py",
+   "git -C app"
+  ],
+  "falas": [
+   [
+    "update_tag",
+    [
+     "tag"
+    ]
+   ],
+   [
+    "update_backup",
+    [
+     "backup"
+    ]
+   ],
+   [
+    "update_migrar",
+    [
+     "erro"
+    ]
+   ],
+   [
+    "update_desfeito",
+    [
+     "motivo"
+    ]
+   ]
+  ],
+  "instalacao_gravada": [],
+  "lock_liberado": true
+ },
+ "clone_migrar_timeout": {
+  "arquivos_do_app": {
+   "app/scripts/versao.txt": "antiga\n"
+  },
+  "codigo": 4,
+  "comandos": [
+   "git -C app",
+   "git -C app",
+   "git -C app",
+   "tag --list",
+   "assinatura",
+   "git -C app",
+   "backup",
+   "git -C app",
+   "py autoteste.py",
+   "migrar.py",
+   "git -C app"
+  ],
+  "falas": [
+   [
+    "update_tag",
+    [
+     "tag"
+    ]
+   ],
+   [
+    "update_backup",
+    [
+     "backup"
+    ]
+   ],
+   [
+    "update_migrar",
+    [
+     "erro"
+    ]
+   ],
+   [
+    "update_desfeito",
+    [
+     "motivo"
+    ]
+   ]
+  ],
+  "instalacao_gravada": [],
+  "lock_liberado": true
+ },
+ "clone_ok": {
+  "arquivos_do_app": {
+   "app/scripts/versao.txt": "antiga\n"
+  },
+  "codigo": 0,
+  "comandos": [
+   "git -C app",
+   "git -C app",
+   "git -C app",
+   "tag --list",
+   "assinatura",
+   "git -C app",
+   "backup",
+   "git -C app",
+   "py autoteste.py",
+   "py migrar.py --aplicar",
+   "py instalar.py --reaplicar",
+   "status.py"
+  ],
+  "falas": [
+   [
+    "update_tag",
+    [
+     "tag"
+    ]
+   ],
+   [
+    "update_backup",
+    [
+     "backup"
+    ]
+   ],
+   [
+    "update_autoteste",
+    []
+   ]
+  ],
+  "instalacao_gravada": [],
+  "lock_liberado": true
+ },
+ "clone_reaplicar_falha": {
+  "arquivos_do_app": {
+   "app/scripts/versao.txt": "antiga\n"
+  },
+  "codigo": 1,
+  "comandos": [
+   "git -C app",
+   "git -C app",
+   "git -C app",
+   "tag --list",
+   "assinatura",
+   "git -C app",
+   "backup",
+   "git -C app",
+   "py autoteste.py",
+   "py migrar.py --aplicar",
+   "--reaplicar"
+  ],
+  "falas": [
+   [
+    "update_tag",
+    [
+     "tag"
+    ]
+   ],
+   [
+    "update_backup",
+    [
+     "backup"
+    ]
+   ],
+   [
+    "update_autoteste",
+    []
+   ],
+   [
+    "update_reaplicar",
+    [
+     "erro"
+    ]
+   ]
+  ],
+  "instalacao_gravada": [],
+  "lock_liberado": true
+ },
+ "clone_sujo": {
+  "arquivos_do_app": {
+   "app/scripts/versao.txt": "antiga\n"
+  },
+  "codigo": 3,
+  "comandos": [
+   "status --porcelain"
+  ],
+  "falas": [
+   [
+    "update_app_sujo",
+    [
+     "app"
+    ]
+   ]
+  ],
+  "instalacao_gravada": [],
+  "lock_liberado": true
+ },
+ "clone_tag_sem_assinatura": {
+  "arquivos_do_app": {
+   "app/scripts/versao.txt": "antiga\n"
+  },
+  "codigo": 3,
+  "comandos": [
+   "git -C app",
+   "git -C app",
+   "git -C app",
+   "tag --list",
+   "assinatura"
+  ],
+  "falas": [
+   [
+    "update_recusado",
+    [
+     "motivo"
+    ]
+   ]
+  ],
+  "instalacao_gravada": [],
+  "lock_liberado": true
+ },
+ "copia_autoteste_reprova": {
+  "arquivos_do_app": {
+   "app/scripts/versao.txt": "antiga\n"
+  },
+  "codigo": 3,
+  "comandos": [
+   "backup",
+   "autoteste.py"
+  ],
+  "falas": [
+   [
+    "update_sem_assinatura",
+    [
+     "origem"
+    ]
+   ],
+   [
+    "update_backup",
+    [
+     "backup"
+    ]
+   ],
+   [
+    "update_desfeito",
+    [
+     "motivo"
+    ]
+   ]
+  ],
+  "instalacao_gravada": [],
+  "lock_liberado": true
+ },
+ "copia_ok": {
+  "arquivos_do_app": {
+   "app/scripts/versao.txt": "nova\n"
+  },
+  "codigo": 0,
+  "comandos": [
+   "backup",
+   "py autoteste.py",
+   "py migrar.py --aplicar",
+   "py instalar.py --reaplicar",
+   "py status.py --doctor"
+  ],
+  "falas": [
+   [
+    "update_sem_assinatura",
+    [
+     "origem"
+    ]
+   ],
+   [
+    "update_backup",
+    [
+     "backup"
+    ]
+   ],
+   [
+    "update_autoteste",
+    []
+   ]
+  ],
+  "instalacao_gravada": [],
+  "lock_liberado": true
+ },
+ "copia_preparar_falha": {
+  "arquivos_do_app": {
+   "app/scripts/versao.txt": "antiga\n"
+  },
+  "codigo": "OSError: disco cheio",
+  "comandos": [
+   "backup"
+  ],
+  "falas": [
+   [
+    "update_sem_assinatura",
+    [
+     "origem"
+    ]
+   ],
+   [
+    "update_backup",
+    [
+     "backup"
+    ]
+   ]
+  ],
+  "instalacao_gravada": [],
+  "lock_liberado": true
+ },
+ "copia_sem_origem": {
+  "arquivos_do_app": {
+   "app.anterior/velha-reserva": "x",
+   "app/scripts/versao.txt": "antiga\n"
+  },
+  "codigo": 3,
+  "comandos": [],
+  "falas": [
+   [
+    "update_copia_sem_origem",
+    []
+   ]
+  ],
+  "instalacao_gravada": [],
+  "lock_liberado": true
+ },
+ "copia_zip_assinado_ok": {
+  "arquivos_do_app": {
+   "app/scripts/versao.txt": "nova\n"
+  },
+  "codigo": 0,
+  "comandos": [
+   "assinatura",
+   "backup",
+   "py autoteste.py",
+   "py migrar.py --aplicar",
+   "py instalar.py --reaplicar",
+   "py status.py --doctor"
+  ],
+  "falas": [
+   [
+    "update_zip_assinado",
+    [
+     "arquivo",
+     "assinante"
+    ]
+   ],
+   [
+    "update_backup",
+    [
+     "backup"
+    ]
+   ],
+   [
+    "update_autoteste",
+    []
+   ]
+  ],
+  "instalacao_gravada": [],
+  "lock_liberado": true
+ },
+ "copia_zip_sem_assinatura": {
+  "arquivos_do_app": {
+   "app.anterior/velha-reserva": "x",
+   "app/scripts/versao.txt": "antiga\n"
+  },
+  "codigo": 3,
+  "comandos": [
+   "assinatura"
+  ],
+  "falas": [
+   [
+    "update_recusado",
+    [
+     "motivo"
+    ]
+   ]
+  ],
+  "instalacao_gravada": [],
+  "lock_liberado": true
+ },
+ "lock_preso": {
+  "arquivos_do_app": {
+   "app/scripts/versao.txt": "antiga\n"
+  },
+  "codigo": 4,
+  "comandos": [],
+  "falas": [
+   [
+    "update_lock",
+    [
+     "erro"
+    ]
+   ]
+  ],
+  "instalacao_gravada": [],
+  "lock_liberado": true
+ },
+ "sem_instalacao": {
+  "arquivos_do_app": {
+   "app/scripts/versao.txt": "antiga\n"
+  },
+  "codigo": 2,
+  "comandos": [],
+  "falas": [
+   [
+    "update_sem_instalacao",
+    [
+     "raiz"
+    ]
+   ]
+  ],
+  "instalacao_gravada": [],
+  "lock_liberado": true
+ }
+}

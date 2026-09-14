@@ -1,0 +1,38 @@
+.DS_Store
+__pycache__/
+*.pyc
+.pytest_cache/
+logs/
+.run.lock
+*.bak*
+!tests/fixtures/**/*.bak
+# dados de usuário nunca entram no repo (só na raiz; fixtures sintéticas em tests/ entram)
+/dados/
+/inbox/
+# saídas brutas do spike (podem conter dados da agenda/email)
+jobs/spike/out/
+# saídas das ferramentas de desenvolvimento (dev/verificar.py grava a cobertura numa pasta temporária)
+.coverage*
+htmlcov/
+mutants/
+# pacotes das versões (dev/release.py)
+/dist/
+# O GitHub deste repositório é para quem usa o app. Documentos e ferramentas só de quem desenvolve ficam fora dele
+# (versionados à parte no repositório privado oasismed/goal-pacer-dev; ver docs/desenvolvimento.md, também fora).
+/AGENTS.md
+/CLAUDE.md
+/docs/*
+!/docs/referencia.md
+/jobs/spike/
+/.github/pull_request_template.md
+/.pre-commit-config.yaml
+# caches e ambientes locais de ferramentas
+.gstack/
+.ruff_cache/
+.complexipy_cache/
+.venv/
+node_modules/
+.claude/
+.vscode/
+.idea/
+*.log

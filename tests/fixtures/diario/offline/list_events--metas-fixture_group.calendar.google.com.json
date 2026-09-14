@@ -1,0 +1,25 @@
+{
+  "summary": "Metas",
+  "events": [
+    {
+      "id": "evt-28-01", "summary": "[GP] Meta arquivada com bloco aberto", "status": "confirmed",
+      "description": "porquê\ngp:D-2026-09-28-01/inst-fixture-01",
+      "start": {"dateTime": "2026-09-28T17:00:00-03:00"}, "end": {"dateTime": "2026-09-28T18:00:00-03:00"}, "created": "2026-09-27T07:00:00Z"
+    },
+    {
+      "id": "evt-orfao", "summary": "[GP] Bloco de ontem sem .md", "status": "confirmed",
+      "description": "gp:D-2026-09-27-05/inst-fixture-01",
+      "start": {"dateTime": "2026-09-28T15:00:00-03:00"}, "end": {"dateTime": "2026-09-28T15:30:00-03:00"}, "created": "2026-09-27T07:00:00Z"
+    },
+    {
+      "id": "evt-orfao-dup", "summary": "[GP] Bloco de ontem sem .md (duplicata)", "status": "confirmed",
+      "description": "gp:D-2026-09-27-05/inst-fixture-01",
+      "start": {"dateTime": "2026-09-28T15:00:00-03:00"}, "end": {"dateTime": "2026-09-28T15:30:00-03:00"}, "created": "2026-09-27T08:00:00Z"
+    },
+    {
+      "id": "evt-outra-inst", "summary": "[GP] De outra instalação", "status": "confirmed",
+      "description": "gp:D-2026-09-28-01/outra-inst",
+      "start": {"dateTime": "2026-09-28T16:00:00-03:00"}, "end": {"dateTime": "2026-09-28T16:30:00-03:00"}
+    }
+  ]
+}

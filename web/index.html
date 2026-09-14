@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="{{IDIOMA}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="gp-token" content="{{TOKEN}}">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#E9ECEF">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Goal Pacer">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="apple-touch-icon" href="/icone-180.png">
+<title>Goal Pacer</title>
+<link rel="preload" href="/fonts/plus-jakarta-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/app.css">
+<script type="module" src="/app.js"></script>
+</head>
+<body>
+<div class="app">
+  <header class="barra-topo">
+    <a class="marca" href="#/hoje">
+      <img src="/icone-180.png" alt="" width="36" height="36">
+      <b data-t="titulo_pagina"></b>
+    </a>
+    <nav class="nav" id="nav" data-t-rotulo="nav_rotulo">
+      <a href="#/hoje" data-tela="hoje" data-t="nav_hoje"></a>
+      <a href="#/horizontes" data-tela="periodo" data-t="nav_horizontes"></a>
+      <a href="#/objetivos" data-tela="objetivos" data-t="nav_objetivos"></a>
+      <a href="#/metas" data-tela="metas" data-t="nav_metas"></a>
+      <a href="#/checkin" data-tela="checkin" data-t="nav_checkin"></a>
+      <a href="#/status" data-tela="status" data-t="nav_status"></a>
+      <a href="#/conexoes" data-tela="conexoes" data-t="nav_conexoes"></a>
+    </nav>
+    <div class="topo-acoes">
+      <span class="selo-demo" id="selo-demo" data-t="demo_selo" hidden></span>
+      <button class="botao-claro" id="atualizar" type="button" data-t="atualizar"></button>
+    </div>
+  </header>
+  <main class="tela" id="tela" aria-busy="true" aria-live="polite"></main>
+  <p class="toast" id="toast" role="status" aria-live="polite" hidden></p>
+  <footer class="rodape" id="rodape"></footer>
+</div>
+</body>
+</html>

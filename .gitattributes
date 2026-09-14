@@ -1,0 +1,6 @@
+# Fins de linha fixos: o .cmd do Windows precisa de CRLF (o git archive da versão aplica); scripts de shell, LF.
+*.cmd text eol=crlf
+*.sh text eol=lf
+*.command text eol=lf
+# Imagens do README: ficam no repositório, fora do zip e dos instaladores de cada versão
+/assets export-ignore

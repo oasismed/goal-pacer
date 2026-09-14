@@ -1,0 +1,20 @@
+{
+  "run_id": "fx-diario-01",
+  "calendar_id_metas": "metas-fixture@group.calendar.google.com",
+  "gerado_em": "2026-09-28T07:01:00-03:00",
+  "ops": [
+    {
+      "op": "create", "task_id": "D-2026-09-28-01", "calendar_id": "metas-fixture@group.calendar.google.com",
+      "corpo": {"summary": "[GP] Exercícios do módulo 3", "start": "2026-09-28T09:00:00-03:00", "end": "2026-09-28T10:30:00-03:00", "timeZone": "America/Sao_Paulo", "overrideReminders": [], "notificationLevel": "NONE"},
+      "status": "ok", "event_id_resultado": "evt-sintetico-01"
+    },
+    {
+      "op": "update", "task_id": "D-2026-09-27-02", "calendar_id": "metas-fixture@group.calendar.google.com",
+      "calendar_event_id": "evt-sintetico-02", "corpo": {"description": "..."}, "status": "ok"
+    },
+    {
+      "op": "delete", "task_id": "D-2026-09-27-03", "calendar_id": "metas-fixture@group.calendar.google.com",
+      "calendar_event_id": "evt-sintetico-03", "status": "ok"
+    }
+  ]
+}

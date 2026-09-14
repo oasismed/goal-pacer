@@ -1,0 +1,10 @@
+Texto solto antes dos blocos, que deve ser ignorado.
+<!-- prosa:resumo -->
+Outubro fecha a base do curso e abre espaço para os treinos nas manhãs livres.
+<!-- /prosa:resumo -->
+<!-- prosa:m01 -->
+O curso segue no ritmo: quatro horas por semana levam ao módulo 5 antes do fim do mês.
+<!-- /prosa:m01 -->
+<!-- prosa:m02 -->
+A corrida ainda não cabe: faltam horas.
+<!-- /prosa:m02 -->

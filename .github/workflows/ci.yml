@@ -1,0 +1,142 @@
+# Testes do Goal Pacer em macOS, Linux e Windows, no Python mínimo (3.9) e no mais novo.
+# Suíte offline, gates, E2E do painel de exemplo e os instaladores de verdade: sem golden run vivo, sem conectores, sem
+# segredos (o repositório é público: qualquer um lê os logs). Ações fixadas por commit.
+#
+# Só de graça (pedido do usuário, 14/09): roda apenas enquanto o repositório é público, onde os runners padrão do GitHub
+# não gastam minutos. Todo job tem `if: !github.event.repository.private`: se o repositório voltar a ser privado, nada
+# roda e nada é cobrado. Nunca usar runners maiores (pagos) nem `pull_request_target`.
+name: testes
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: testes-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  pytest:
+    if: ${{ !github.event.repository.private }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+        python: ["3.9", "3.13"]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97  # v7.0.0
+        with:
+          python-version: ${{ matrix.python }}
+      - name: pytest (só em desenvolvimento; o app usa a biblioteca padrão; versões de requirements-dev.txt)
+        run: python -m pip install --disable-pip-version-check "pytest==9.0.3; python_version >= '3.10'" "pytest==8.3.5; python_version < '3.10'"
+      - name: suíte offline
+        run: python -m pytest -q
+
+  windows:
+    if: ${{ !github.event.repository.private && github.event_name != 'pull_request' }}
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.9", "3.13"]
+    runs-on: windows-latest
+    timeout-minutes: 30
+    env:
+      PYTHONUTF8: "1"
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97  # v7.0.0
+        with:
+          python-version: ${{ matrix.python }}
+      - name: pytest e tzdata (o Python do Windows não traz a base de fusos; a instalação baixa a mesma versão)
+        run: python -m pip install --disable-pip-version-check "pytest==9.0.3; python_version >= '3.10'" "pytest==8.3.5; python_version < '3.10'" "tzdata==2026.4"
+      - name: suíte offline (módulos só de POSIX ficam de fora, listados no conftest)
+        run: python -m pytest -q
+      - name: instalação de verdade pelo clique duplo (Agendador de Tarefas, atalhos, painel, update pela pasta, desinstalação)
+        run: python tests/e2e/windows.py
+
+  instaladores-mac:
+    if: ${{ !github.event.repository.private && github.event_name != 'pull_request' }}
+    runs-on: macos-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97  # v7.0.0
+        with:
+          python-version: "3.13"
+      - name: .dmg de uma versão de teste (Python universal, app compilado, assinatura local), abrir a janela, repetir e atualizar
+        run: python tests/e2e/instaladores.py mac
+
+  instaladores-windows:
+    if: ${{ !github.event.repository.private && github.event_name != 'pull_request' }}
+    runs-on: windows-latest
+    timeout-minutes: 40
+    env:
+      PYTHONUTF8: "1"
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97  # v7.0.0
+        with:
+          python-version: "3.13"
+      - name: NSIS (o makensis que monta o Setup.exe)
+        run: |
+          choco install nsis -y --no-progress
+          echo "C:\Program Files (x86)\NSIS" >> $env:GITHUB_PATH
+      - name: Setup.exe de uma versão de teste, instalar em silêncio, atualizar e desinstalar
+        run: python tests/e2e/instaladores.py windows
+
+  qualidade:
+    if: ${{ !github.event.repository.private }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97  # v7.0.0
+        with:
+          python-version: "3.13"
+      - name: ferramentas com versão fixa
+        run: python -m pip install --disable-pip-version-check -r requirements-dev.txt
+      - name: gates (os mesmos do dev/verificar.py na máquina; o node do runner roda o lint e os testes do front)
+        run: python dev/verificar.py --auditar
+      - name: catraca de complexidade commitada
+        run: |
+          git diff --exit-code complexipy-snapshot.json || {
+            echo "::error::funções ficaram mais simples: rode dev/verificar.py e commite o complexipy-snapshot.json apertado"
+            exit 1
+          }
+
+  e2e:
+    if: ${{ !github.event.repository.private }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97  # v7.0.0
+        with:
+          python-version: "3.13"
+      - name: Playwright com versão fixa (só o E2E; o app segue sem dependência)
+        run: python -m pip install --disable-pip-version-check -r requirements-e2e.txt
+      - name: Chromium headless do Playwright
+        run: python -m playwright install --with-deps chromium
+      - name: painel de exemplo no navegador (14 telas, 12 ações, console, celular, registro local)
+        run: python tests/e2e/painel.py --navegador playwright

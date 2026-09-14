@@ -1,0 +1,26 @@
+{
+  "metas": [
+    {
+      "titulo": "Custo não numérico",
+      "horizonte": "trimestre",
+      "prazo": "2026-12-15",
+      "custo_h_semana_escolhido": "muito",
+      "semanas_pesquisa": 12
+    },
+    {
+      "titulo": "",
+      "horizonte": "mensal",
+      "prazo": "15/12/2026",
+      "custo_h_semana_escolhido": 2,
+      "semanas_pesquisa": 0,
+      "palavras_chave": ["a", "b", "c", "d"],
+      "cor": "azul"
+    }
+  ],
+  "horario_util": {"seg_sex": "8h-19h"},
+  "calendar_id_metas": "pessoa@exemplo.test",
+  "calendar_id_primario": "pessoa@exemplo.test",
+  "lembretes": "talvez",
+  "email_proprio": "sem-arroba",
+  "timezone": "Marte/Base"
+}

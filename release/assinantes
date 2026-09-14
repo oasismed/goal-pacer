@@ -1,0 +1,4 @@
+# Chaves que assinam as versões do Goal Pacer (formato allowed_signers do OpenSSH).
+# O --update confere a tag (espaço git) e o zip (espaço goal-pacer-release) com a lista da versão JÁ instalada.
+# Trocar de chave: publique, assinada pela chave atual, uma versão que acrescenta a nova; depois retire a antiga.
+chico@oasismed namespaces="git,goal-pacer-release" ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGnLlssZTcvCXX5reI5hRsRwBuTLyii2UcmGR/YXjbiq

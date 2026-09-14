@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "geracoes": {},
+  "checkins": {
+    "D-2026-09-26-01": {"estado": "feita", "origem": "confirmado", "ts": "2026-09-26T20:00:00-03:00", "duracao_real_h": 1.0}
+  },
+  "feitas": {
+    "M01": [{"task_id": "D-2026-09-26-01", "duracao_h": 1.0, "duracao_real_h": 1.0, "origem": "confirmado", "ts": "2026-09-26T20:00:00-03:00"}]
+  },
+  "progresso": {},
+  "notas_recusadas": []
+}

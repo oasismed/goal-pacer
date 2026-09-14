@@ -1,0 +1,118 @@
+{
+ "ids": {
+  "D-2026-09-28-01": [
+   null,
+   null
+  ],
+  "D-2026-09-28-02": [
+   "ev-02",
+   "metas-fixture@group.calendar.google.com"
+  ],
+  "D-2026-09-28-03": [
+   "ev-03",
+   "metas-fixture@group.calendar.google.com"
+  ],
+  "D-2026-09-28-04": [
+   "ev-04",
+   "metas-fixture@group.calendar.google.com"
+  ],
+  "D-2026-09-28-05": [
+   "ev-05a",
+   "metas-fixture@group.calendar.google.com"
+  ],
+  "D-2026-09-28-06": [
+   "ev-06",
+   null
+  ],
+  "D-2026-09-28-07": [
+   null,
+   null
+  ],
+  "D-2026-09-28-08": [
+   "ev-08",
+   null
+  ]
+ },
+ "ops": [
+  {
+   "calendar_id": "metas-fixture@group.calendar.google.com",
+   "corpo": {
+    "calendarId": "metas-fixture@group.calendar.google.com",
+    "description": "porquê\ngp:D-2026-09-28-01/inst-fixture-01",
+    "end": "2026-09-28T08:00:00-03:00",
+    "notificationLevel": "NONE",
+    "overrideReminders": [],
+    "start": "2026-09-28T07:00:00-03:00",
+    "summary": "[GP] Bloco 01",
+    "timeZone": "America/Sao_Paulo"
+   },
+   "op": "create",
+   "task_id": "D-2026-09-28-01"
+  },
+  {
+   "calendar_event_id": "ev-03",
+   "calendar_id": "metas-fixture@group.calendar.google.com",
+   "corpo": {
+    "calendarId": "metas-fixture@group.calendar.google.com",
+    "description": "porquê\ngp:D-2026-09-28-03/inst-fixture-01",
+    "end": "2026-09-28T10:00:00-03:00",
+    "eventId": "ev-03",
+    "start": "2026-09-28T09:00:00-03:00",
+    "timeZone": "America/Sao_Paulo"
+   },
+   "op": "update",
+   "task_id": "D-2026-09-28-03"
+  },
+  {
+   "calendar_event_id": "ev-04",
+   "calendar_id": "metas-fixture@group.calendar.google.com",
+   "corpo": {
+    "calendarId": "metas-fixture@group.calendar.google.com",
+    "description": "porquê\ngp:D-2026-09-28-04/inst-fixture-01",
+    "eventId": "ev-04"
+   },
+   "op": "update",
+   "task_id": "D-2026-09-28-04"
+  },
+  {
+   "calendar_event_id": "ev-06",
+   "calendar_id": "metas-fixture@group.calendar.google.com",
+   "corpo": {
+    "calendarId": "metas-fixture@group.calendar.google.com",
+    "eventId": "ev-06"
+   },
+   "op": "delete",
+   "task_id": "D-2026-09-28-06"
+  },
+  {
+   "calendar_event_id": "ev-orfao-ontem-dup",
+   "calendar_id": "metas-fixture@group.calendar.google.com",
+   "corpo": {
+    "calendarId": "metas-fixture@group.calendar.google.com",
+    "eventId": "ev-orfao-ontem-dup"
+   },
+   "op": "delete",
+   "task_id": "D-2026-09-27-01"
+  },
+  {
+   "calendar_event_id": "ev-05b",
+   "calendar_id": "metas-fixture@group.calendar.google.com",
+   "corpo": {
+    "calendarId": "metas-fixture@group.calendar.google.com",
+    "eventId": "ev-05b"
+   },
+   "op": "delete",
+   "task_id": "D-2026-09-28-05"
+  },
+  {
+   "calendar_event_id": "ev-orfao-hoje",
+   "calendar_id": "metas-fixture@group.calendar.google.com",
+   "corpo": {
+    "calendarId": "metas-fixture@group.calendar.google.com",
+    "eventId": "ev-orfao-hoje"
+   },
+   "op": "delete",
+   "task_id": "D-2026-09-28-20"
+  }
+ ]
+}

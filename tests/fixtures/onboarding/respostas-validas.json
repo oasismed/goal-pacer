@@ -1,0 +1,42 @@
+{
+  "metas": [
+    {
+      "titulo": "Terminar o curso de estatística",
+      "horizonte": "trimestre",
+      "prazo": "2026-12-15",
+      "prazo_externo": false,
+      "custo_h_semana_min": 3,
+      "custo_h_semana_max": 6,
+      "custo_h_semana_escolhido": 4,
+      "semanas_pesquisa": 12,
+      "confianca": "media",
+      "palavras_chave": ["estatística", "curso", "exercícios"],
+      "porque": "Fechar a base antes do projeto de análise do próximo ano.",
+      "marcos": ["Módulos 1 a 4 até outubro", "Prova final em dezembro"],
+      "pesquisa": {
+        "busca": "quantas horas por semana curso de estatística introdutório",
+        "urls": ["https://exemplo.test/curso-estatistica"],
+        "trecho": "recomenda-se de 3 a 6 horas semanais de estudo por 12 semanas"
+      }
+    },
+    {
+      "titulo": "Correr 10 km sem parar",
+      "horizonte": "semestre",
+      "prazo": "2027-03-01",
+      "prazo_externo": "sim",
+      "custo_h_semana_escolhido": "2,5",
+      "semanas_pesquisa": 20,
+      "confianca": "usuario",
+      "palavras_chave": "corrida, treino"
+    }
+  ],
+  "horario_util": {"seg_sex": "08:00-19:00", "sab": "09:00-13:00", "dom": "nenhum"},
+  "calendar_id_metas": "metas-fixture@group.calendar.google.com",
+  "calendar_id_primario": "pessoa@exemplo.test",
+  "calendarios_lidos": [],
+  "lembretes": "nao",
+  "fontes_ativas": ["gmail", "notion"],
+  "email_proprio": "Pessoa@Exemplo.test",
+  "email_alias": ["alias@exemplo.test"],
+  "timezone": "America/Sao_Paulo"
+}

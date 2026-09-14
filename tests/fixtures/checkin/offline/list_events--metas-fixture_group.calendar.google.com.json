@@ -1,0 +1,31 @@
+{
+  "summary": "Metas",
+  "timeZone": "America/Sao_Paulo",
+  "events": [
+    {
+      "id": "evt-01", "summary": "[GP] Intocado e vencido", "status": "confirmed",
+      "description": "porquê\nse feita: M1 41% → 44%\ngp:D-2026-09-26-01/inst-fixture-01",
+      "start": {"dateTime": "2026-09-26T09:00:00-03:00"}, "end": {"dateTime": "2026-09-26T10:00:00-03:00"}
+    },
+    {
+      "id": "evt-02", "summary": "[GP] Movido no mesmo dia", "status": "confirmed",
+      "description": "porquê\ngp:D-2026-09-26-02/inst-fixture-01",
+      "start": {"dateTime": "2026-09-26T15:00:00-03:00"}, "end": {"dateTime": "2026-09-26T16:00:00-03:00"}
+    },
+    {
+      "id": "evt-03", "summary": "[GP] Reagendado para terça", "status": "confirmed",
+      "description": "porquê\ngp:D-2026-09-26-03/inst-fixture-01",
+      "start": {"dateTime": "2026-09-29T12:00:00-03:00"}, "end": {"dateTime": "2026-09-29T12:45:00-03:00"}
+    },
+    {
+      "id": "evt-07", "summary": "[GP] Hoje, ainda não venceu", "status": "confirmed",
+      "description": "porquê\ngp:D-2026-09-28-01/inst-fixture-01",
+      "start": {"dateTime": "2026-09-28T09:05:00-03:00"}, "end": {"dateTime": "2026-09-28T10:30:00-03:00"}
+    },
+    {
+      "id": "evt-terceiro-no-metas", "summary": "Evento do usuário no Metas", "status": "confirmed",
+      "description": "sem chave",
+      "start": {"dateTime": "2026-09-27T09:00:00-03:00"}, "end": {"dateTime": "2026-09-27T10:00:00-03:00"}
+    }
+  ]
+}

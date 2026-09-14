@@ -1,0 +1,11 @@
+{
+  "evidencias": [
+    {"meta": "M01", "fonte": "gmail", "data": "2026-09-20", "resumo": "confirmação de matrícula no módulo 3 do curso"},
+    {"meta": "M02", "fonte": "whatsapp", "data": "2026-09-25", "resumo": "treino de 6 km registrado na conversa do grupo"},
+    {"meta": "M09", "fonte": "gmail", "data": "2026-09-20", "resumo": "meta que não existe"},
+    {"meta": "M01", "fonte": "gmail", "data": "2026-07-01", "resumo": "fora da janela"},
+    {"meta": "M01", "fonte": "notion", "data": "2026-09-21", "resumo": "fonte inativa"},
+    {"meta": "M01", "fonte": "gmail", "data": "2026-09-22", "resumo": "   "}
+  ],
+  "fontes": {"gmail": {"query": "(estatística OR curso) newer_than:30d", "vistos": 7, "abertos": 2}}
+}

@@ -1,0 +1,11 @@
+# Goal Pacer: quando o job "diario" roda. Persistent=true recupera a execução perdida com o computador desligado.
+[Unit]
+Description=Goal Pacer: agenda do job diario
+
+[Timer]
+OnCalendar=Mon..Sat *-*-* 07:00:00
+Persistent=true
+Unit=goal-pacer-diario.service
+
+[Install]
+WantedBy=timers.target

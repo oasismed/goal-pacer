@@ -1,0 +1,6 @@
+Checking MCP server health...
+
+claude.ai Google Calendar: https://exemplo.test/calendar - ✔ Connected
+claude.ai Gmail: https://exemplo.test/gmail - ✔ Connected
+claude.ai Notion: https://exemplo.test/notion - ✔ Connected
+claude.ai Slack: https://exemplo.test/slack - ✔ Connected

@@ -1,0 +1,518 @@
+{
+ "manha": {
+  "apertado": false,
+  "demanda_aberta_h": 45.0,
+  "demanda_mes_h": 72.25,
+  "gerado_em": "2026-10-05T08:00:00-03:00",
+  "hoje": "2026-10-05",
+  "mes": "2026-10",
+  "metas": {
+   "M01": {
+    "adiar_para": "2026-12-22",
+    "alocado_mes_h": 17.75,
+    "cobertura_pct": 87.5,
+    "confianca": "media",
+    "custo_h_semana": 4.0,
+    "custo_total_h": 48.0,
+    "decisao": "reduzir",
+    "demanda_mes_h": 20.0,
+    "estado": "ativa",
+    "feito_mes_h": 1.5,
+    "prazo": "2026-12-15",
+    "prazo_externo": false,
+    "progresso_pct": 12.5,
+    "progresso_presumido_pct": 3.0,
+    "recalibrar_para": null,
+    "restante_h": 46.5,
+    "ritmo_esperado_pct": 20.0,
+    "semanas_pesquisa": 12,
+    "titulo": "Meta M01"
+   },
+   "M02": {
+    "adiar_para": "2026-11-27",
+    "alocado_mes_h": 31.0,
+    "cobertura_pct": 85.5,
+    "confianca": "media",
+    "custo_h_semana": 6.0,
+    "custo_total_h": 60.0,
+    "decisao": "reduzir",
+    "demanda_mes_h": 36.25,
+    "estado": "ativa",
+    "feito_mes_h": 2.0,
+    "prazo": "2026-11-20",
+    "prazo_externo": true,
+    "progresso_pct": 0.0,
+    "progresso_presumido_pct": 0.0,
+    "recalibrar_para": null,
+    "restante_h": 58.0,
+    "ritmo_esperado_pct": 0.0,
+    "semanas_pesquisa": 10,
+    "titulo": "Meta M02"
+   },
+   "M03": {
+    "adiar_para": null,
+    "alocado_mes_h": 0.0,
+    "cobertura_pct": 0.0,
+    "confianca": "media",
+    "custo_h_semana": 2.0,
+    "custo_total_h": 16.0,
+    "decisao": null,
+    "demanda_mes_h": 16.0,
+    "estado": "vencida",
+    "feito_mes_h": 0,
+    "prazo": "2026-10-02",
+    "prazo_externo": false,
+    "progresso_pct": 0.0,
+    "progresso_presumido_pct": 0.0,
+    "recalibrar_para": null,
+    "restante_h": 16.0,
+    "ritmo_esperado_pct": 0.0,
+    "semanas_pesquisa": 8,
+    "titulo": "Meta M03"
+   },
+   "M04": {
+    "adiar_para": null,
+    "alocado_mes_h": 0.0,
+    "cobertura_pct": 100.0,
+    "confianca": "media",
+    "custo_h_semana": 3.0,
+    "custo_total_h": 30.0,
+    "decisao": null,
+    "demanda_mes_h": 0.0,
+    "estado": "pausada",
+    "feito_mes_h": 0,
+    "prazo": "2027-01-30",
+    "prazo_externo": false,
+    "progresso_pct": 0.0,
+    "progresso_presumido_pct": 0.0,
+    "recalibrar_para": null,
+    "restante_h": 30.0,
+    "ritmo_esperado_pct": 0.0,
+    "semanas_pesquisa": 10,
+    "titulo": "Meta M04"
+   }
+  },
+  "oferta_mes_h": 66.33,
+  "semanas": [
+   {
+    "fim": "2026-10-04",
+    "inicio": "2026-09-28",
+    "metas": {
+     "M01": {
+      "alocado_h": 1.5,
+      "cobertura_pct": 37.5,
+      "demanda_h": 4.0,
+      "feito_h": 1.5
+     },
+     "M02": {
+      "alocado_h": 2.0,
+      "cobertura_pct": 27.6,
+      "demanda_h": 7.25,
+      "feito_h": 2.0
+     },
+     "M03": {
+      "alocado_h": 0.0,
+      "cobertura_pct": 0.0,
+      "demanda_h": 16.0,
+      "feito_h": 0
+     },
+     "M04": {
+      "alocado_h": 0.0,
+      "cobertura_pct": 100.0,
+      "demanda_h": 0.0,
+      "feito_h": 0
+     }
+    },
+    "oferta_h": 0.0,
+    "semana": "2026-W40"
+   },
+   {
+    "fim": "2026-10-11",
+    "inicio": "2026-10-05",
+    "metas": {
+     "M01": {
+      "alocado_h": 4.0,
+      "cobertura_pct": 100.0,
+      "demanda_h": 4.0,
+      "feito_h": 0
+     },
+     "M02": {
+      "alocado_h": 7.25,
+      "cobertura_pct": 100.0,
+      "demanda_h": 7.25,
+      "feito_h": 0
+     },
+     "M03": {
+      "alocado_h": 0.0,
+      "cobertura_pct": 100.0,
+      "demanda_h": 0.0,
+      "feito_h": 0
+     },
+     "M04": {
+      "alocado_h": 0.0,
+      "cobertura_pct": 100.0,
+      "demanda_h": 0.0,
+      "feito_h": 0
+     }
+    },
+    "oferta_h": 15.33,
+    "semana": "2026-W41"
+   },
+   {
+    "fim": "2026-10-18",
+    "inicio": "2026-10-12",
+    "metas": {
+     "M01": {
+      "alocado_h": 4.25,
+      "cobertura_pct": 100.0,
+      "demanda_h": 4.0,
+      "feito_h": 0
+     },
+     "M02": {
+      "alocado_h": 7.25,
+      "cobertura_pct": 100.0,
+      "demanda_h": 7.25,
+      "feito_h": 0
+     },
+     "M03": {
+      "alocado_h": 0.0,
+      "cobertura_pct": 100.0,
+      "demanda_h": 0.0,
+      "feito_h": 0
+     },
+     "M04": {
+      "alocado_h": 0.0,
+      "cobertura_pct": 100.0,
+      "demanda_h": 0.0,
+      "feito_h": 0
+     }
+    },
+    "oferta_h": 15.0,
+    "semana": "2026-W42"
+   },
+   {
+    "fim": "2026-10-25",
+    "inicio": "2026-10-19",
+    "metas": {
+     "M01": {
+      "alocado_h": 4.0,
+      "cobertura_pct": 100.0,
+      "demanda_h": 4.0,
+      "feito_h": 0
+     },
+     "M02": {
+      "alocado_h": 7.25,
+      "cobertura_pct": 100.0,
+      "demanda_h": 7.25,
+      "feito_h": 0
+     },
+     "M03": {
+      "alocado_h": 0.0,
+      "cobertura_pct": 100.0,
+      "demanda_h": 0.0,
+      "feito_h": 0
+     },
+     "M04": {
+      "alocado_h": 0.0,
+      "cobertura_pct": 100.0,
+      "demanda_h": 0.0,
+      "feito_h": 0
+     }
+    },
+    "oferta_h": 18.0,
+    "semana": "2026-W43"
+   },
+   {
+    "fim": "2026-11-01",
+    "inicio": "2026-10-26",
+    "metas": {
+     "M01": {
+      "alocado_h": 4.0,
+      "cobertura_pct": 100.0,
+      "demanda_h": 4.0,
+      "feito_h": 0
+     },
+     "M02": {
+      "alocado_h": 7.25,
+      "cobertura_pct": 100.0,
+      "demanda_h": 7.25,
+      "feito_h": 0
+     },
+     "M03": {
+      "alocado_h": 0.0,
+      "cobertura_pct": 100.0,
+      "demanda_h": 0.0,
+      "feito_h": 0
+     },
+     "M04": {
+      "alocado_h": 0.0,
+      "cobertura_pct": 100.0,
+      "demanda_h": 0.0,
+      "feito_h": 0
+     }
+    },
+    "oferta_h": 18.0,
+    "semana": "2026-W44"
+   }
+  ],
+  "ultimo_dia": "2026-10-31"
+ },
+ "noite": {
+  "apertado": false,
+  "demanda_aberta_h": 45.0,
+  "demanda_mes_h": 72.25,
+  "gerado_em": "2026-10-05T21:00:00-03:00",
+  "hoje": "2026-10-05",
+  "mes": "2026-10",
+  "metas": {
+   "M01": {
+    "adiar_para": "2026-12-22",
+    "alocado_mes_h": 17.75,
+    "cobertura_pct": 87.5,
+    "confianca": "media",
+    "custo_h_semana": 4.0,
+    "custo_total_h": 48.0,
+    "decisao": "reduzir",
+    "demanda_mes_h": 20.0,
+    "estado": "ativa",
+    "feito_mes_h": 1.5,
+    "prazo": "2026-12-15",
+    "prazo_externo": false,
+    "progresso_pct": 12.5,
+    "progresso_presumido_pct": 3.0,
+    "recalibrar_para": null,
+    "restante_h": 46.5,
+    "ritmo_esperado_pct": 20.0,
+    "semanas_pesquisa": 12,
+    "titulo": "Meta M01"
+   },
+   "M02": {
+    "adiar_para": "2026-11-27",
+    "alocado_mes_h": 31.0,
+    "cobertura_pct": 85.5,
+    "confianca": "media",
+    "custo_h_semana": 6.0,
+    "custo_total_h": 60.0,
+    "decisao": "reduzir",
+    "demanda_mes_h": 36.25,
+    "estado": "ativa",
+    "feito_mes_h": 2.0,
+    "prazo": "2026-11-20",
+    "prazo_externo": true,
+    "progresso_pct": 0.0,
+    "progresso_presumido_pct": 0.0,
+    "recalibrar_para": null,
+    "restante_h": 58.0,
+    "ritmo_esperado_pct": 0.0,
+    "semanas_pesquisa": 10,
+    "titulo": "Meta M02"
+   },
+   "M03": {
+    "adiar_para": null,
+    "alocado_mes_h": 0.0,
+    "cobertura_pct": 0.0,
+    "confianca": "media",
+    "custo_h_semana": 2.0,
+    "custo_total_h": 16.0,
+    "decisao": null,
+    "demanda_mes_h": 16.0,
+    "estado": "vencida",
+    "feito_mes_h": 0,
+    "prazo": "2026-10-02",
+    "prazo_externo": false,
+    "progresso_pct": 0.0,
+    "progresso_presumido_pct": 0.0,
+    "recalibrar_para": null,
+    "restante_h": 16.0,
+    "ritmo_esperado_pct": 0.0,
+    "semanas_pesquisa": 8,
+    "titulo": "Meta M03"
+   },
+   "M04": {
+    "adiar_para": null,
+    "alocado_mes_h": 0.0,
+    "cobertura_pct": 100.0,
+    "confianca": "media",
+    "custo_h_semana": 3.0,
+    "custo_total_h": 30.0,
+    "decisao": null,
+    "demanda_mes_h": 0.0,
+    "estado": "pausada",
+    "feito_mes_h": 0,
+    "prazo": "2027-01-30",
+    "prazo_externo": false,
+    "progresso_pct": 0.0,
+    "progresso_presumido_pct": 0.0,
+    "recalibrar_para": null,
+    "restante_h": 30.0,
+    "ritmo_esperado_pct": 0.0,
+    "semanas_pesquisa": 10,
+    "titulo": "Meta M04"
+   }
+  },
+  "oferta_mes_h": 64.33,
+  "semanas": [
+   {
+    "fim": "2026-10-04",
+    "inicio": "2026-09-28",
+    "metas": {
+     "M01": {
+      "alocado_h": 1.5,
+      "cobertura_pct": 37.5,
+      "demanda_h": 4.0,
+      "feito_h": 1.5
+     },
+     "M02": {
+      "alocado_h": 2.0,
+      "cobertura_pct": 27.6,
+      "demanda_h": 7.25,
+      "feito_h": 2.0
+     },
+     "M03": {
+      "alocado_h": 0.0,
+      "cobertura_pct": 0.0,
+      "demanda_h": 16.0,
+      "feito_h": 0
+     },
+     "M04": {
+      "alocado_h": 0.0,
+      "cobertura_pct": 100.0,
+      "demanda_h": 0.0,
+      "feito_h": 0
+     }
+    },
+    "oferta_h": 0.0,
+    "semana": "2026-W40"
+   },
+   {
+    "fim": "2026-10-11",
+    "inicio": "2026-10-05",
+    "metas": {
+     "M01": {
+      "alocado_h": 4.0,
+      "cobertura_pct": 100.0,
+      "demanda_h": 4.0,
+      "feito_h": 0
+     },
+     "M02": {
+      "alocado_h": 7.25,
+      "cobertura_pct": 100.0,
+      "demanda_h": 7.25,
+      "feito_h": 0
+     },
+     "M03": {
+      "alocado_h": 0.0,
+      "cobertura_pct": 100.0,
+      "demanda_h": 0.0,
+      "feito_h": 0
+     },
+     "M04": {
+      "alocado_h": 0.0,
+      "cobertura_pct": 100.0,
+      "demanda_h": 0.0,
+      "feito_h": 0
+     }
+    },
+    "oferta_h": 13.33,
+    "semana": "2026-W41"
+   },
+   {
+    "fim": "2026-10-18",
+    "inicio": "2026-10-12",
+    "metas": {
+     "M01": {
+      "alocado_h": 4.25,
+      "cobertura_pct": 100.0,
+      "demanda_h": 4.0,
+      "feito_h": 0
+     },
+     "M02": {
+      "alocado_h": 7.25,
+      "cobertura_pct": 100.0,
+      "demanda_h": 7.25,
+      "feito_h": 0
+     },
+     "M03": {
+      "alocado_h": 0.0,
+      "cobertura_pct": 100.0,
+      "demanda_h": 0.0,
+      "feito_h": 0
+     },
+     "M04": {
+      "alocado_h": 0.0,
+      "cobertura_pct": 100.0,
+      "demanda_h": 0.0,
+      "feito_h": 0
+     }
+    },
+    "oferta_h": 15.0,
+    "semana": "2026-W42"
+   },
+   {
+    "fim": "2026-10-25",
+    "inicio": "2026-10-19",
+    "metas": {
+     "M01": {
+      "alocado_h": 4.0,
+      "cobertura_pct": 100.0,
+      "demanda_h": 4.0,
+      "feito_h": 0
+     },
+     "M02": {
+      "alocado_h": 7.25,
+      "cobertura_pct": 100.0,
+      "demanda_h": 7.25,
+      "feito_h": 0
+     },
+     "M03": {
+      "alocado_h": 0.0,
+      "cobertura_pct": 100.0,
+      "demanda_h": 0.0,
+      "feito_h": 0
+     },
+     "M04": {
+      "alocado_h": 0.0,
+      "cobertura_pct": 100.0,
+      "demanda_h": 0.0,
+      "feito_h": 0
+     }
+    },
+    "oferta_h": 18.0,
+    "semana": "2026-W43"
+   },
+   {
+    "fim": "2026-11-01",
+    "inicio": "2026-10-26",
+    "metas": {
+     "M01": {
+      "alocado_h": 4.0,
+      "cobertura_pct": 100.0,
+      "demanda_h": 4.0,
+      "feito_h": 0
+     },
+     "M02": {
+      "alocado_h": 7.25,
+      "cobertura_pct": 100.0,
+      "demanda_h": 7.25,
+      "feito_h": 0
+     },
+     "M03": {
+      "alocado_h": 0.0,
+      "cobertura_pct": 100.0,
+      "demanda_h": 0.0,
+      "feito_h": 0
+     },
+     "M04": {
+      "alocado_h": 0.0,
+      "cobertura_pct": 100.0,
+      "demanda_h": 0.0,
+      "feito_h": 0
+     }
+    },
+    "oferta_h": 18.0,
+    "semana": "2026-W44"
+   }
+  ],
+  "ultimo_dia": "2026-10-31"
+ }
+}

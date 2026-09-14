@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="{{IDIOMA}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#E9ECEF">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Goal Pacer">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="apple-touch-icon" href="/icone-180.png">
+<title>Goal Pacer</title>
+<link rel="stylesheet" href="/app.css">
+<script src="/parear.js" defer></script>
+</head>
+<body class="tela-parear">
+<main class="parear">
+  <img class="parear-icone" src="/icone-180.png" width="72" height="72" alt="">
+  <h1>{{T:parear_titulo}}</h1>
+  <p class="sub">{{T:parear_texto}}</p>
+  <form id="form-parear" class="card" novalidate>
+    <label for="codigo">{{T:parear_codigo}}</label>
+    <input id="codigo" name="codigo" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]{6}" maxlength="6" required>
+    <button class="botao-escuro" type="submit">{{T:parear_botao}}</button>
+    <p class="erro-parear" id="erro" role="alert" hidden></p>
+  </form>
+  <p class="rodape">{{T:parear_rodape}}</p>
+</main>
+</body>
+</html>

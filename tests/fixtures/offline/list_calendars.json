@@ -1,0 +1,8 @@
+{
+  "calendars": [
+    {"id": "pessoa@exemplo.test", "summary": "pessoa@exemplo.test", "timeZone": "America/Sao_Paulo"},
+    {"id": "metas-fixture@group.calendar.google.com", "summary": "Metas", "timeZone": "America/Sao_Paulo"},
+    {"id": "feriados#holiday@group.v.calendar.google.com", "summary": "Feriados", "timeZone": "America/Sao_Paulo"},
+    {"id": "equipe-fixture@group.calendar.google.com", "summary": "Equipe", "timeZone": "America/Sao_Paulo"}
+  ]
+}

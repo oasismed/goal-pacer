@@ -1,0 +1,2 @@
+# Só o E2E do painel pelo Playwright (tests/e2e/painel.py --navegador playwright); nunca vai para a instalação.
+playwright==1.62.0

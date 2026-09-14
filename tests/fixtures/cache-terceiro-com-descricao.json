@@ -1,0 +1,13 @@
+{
+  "calendar_id_metas": "metas-fixture@group.calendar.google.com",
+  "janela_inicio": "2026-09-28T00:00:00-03:00",
+  "janela_fim": "2026-09-29T00:00:00-03:00",
+  "gerado_em": "2026-09-28T07:00:30-03:00",
+  "eventos": [
+    {
+      "id": "evt-vazou", "calendar_id": "pessoa@exemplo.test",
+      "start": "2026-09-28T10:00:00-03:00", "end": "2026-09-28T11:00:00-03:00", "all_day": false,
+      "summary": "Reunião sintética", "description": "texto que não deveria estar aqui", "gp_key": null
+    }
+  ]
+}
