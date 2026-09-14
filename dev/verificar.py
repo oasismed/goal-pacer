@@ -132,6 +132,8 @@ def auditoria(args: argparse.Namespace) -> Resultado:
             "requirements-dev.txt",
             "--requirement",
             "requirements-e2e.txt",
+            "--requirement",
+            "requirements-dmg.txt",
             "--progress-spinner",
             "off",
         ]

@@ -15,7 +15,9 @@ Mac, ``dist/Goal-Pacer-<versão>.dmg`` (arrastar para Aplicativos e abrir)::
     (tkinter, idle, testes, ensurepip, libpython estática), juntados arquivo a arquivo com lipo
     Goal Pacer.app: macos/main.swift compilado para arm64 e x86_64 (macOS 13+), ícone, Info.plist com os textos dos
     dois idiomas, Resources/python e Resources/goal-pacer; cada Mach-O e o app assinados localmente (ad hoc)
-    .dmg (UDZO) com o app e um atalho para Aplicativos
+    .dmg (UDZO, dmgbuild com as versões de requirements-dmg.txt) com o app, o atalho para Aplicativos e a janela com
+    fundo (macos/dmg/fundo.png e @2x, gerados por dev/fundo_dmg.py): arrastar para Aplicativos e o passo da primeira
+    abertura sem certificado pago
 
 Windows, ``dist/Goal-Pacer-Setup-<versão>.exe`` (NSIS, instalação por usuário, desinstalação em Aplicativos)::
 
@@ -30,6 +32,7 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import importlib.util
 import os
 import plistlib
 import shutil
@@ -265,6 +268,45 @@ def montar_app(pasta: Path, versao: str, python: Path, destino: Path) -> Path:
     return destino
 
 
+REQUISITOS_DMG = RAIZ / "requirements-dmg.txt"
+FUNDO_DMG = RAIZ / "macos" / "dmg"
+NOME_ATALHO_APLICATIVOS = "Aplicativos"
+JANELA_DMG = (660, 472)  # o fundo.png tem 660x440; a barra de título do Finder ocupa os 32 pontos de cima
+POSICOES_DMG = {janela.NOME_APP: (165, 180), NOME_ATALHO_APLICATIVOS: (495, 180)}  # os lugares que o fundo.html desenha
+
+
+def comando_dmgbuild() -> list[str]:
+    """O dmgbuild do Python atual, se instalado; senão pelo uv, com as versões fixadas em requirements-dmg.txt."""
+    if importlib.util.find_spec("dmgbuild") is not None:
+        return [sys.executable, "-m", "dmgbuild"]
+    uv = shutil.which("uv")
+    if uv is None:
+        raise Falha("dmgbuild ausente: pip install -r requirements-dmg.txt (ou instale o uv)")
+    return [uv, "run", "--no-project", "--with-requirements", str(REQUISITOS_DMG), "python", "-m", "dmgbuild"]
+
+
+def ajustes_dmg(app: Path, fundo: Path) -> str:
+    """O arquivo de ajustes do dmgbuild (Python que ele executa): conteúdo, fundo e a janela sem barras."""
+    ajustes = {
+        "format": "UDZO",
+        "filesystem": "HFS+",
+        "files": [str(app)],
+        "symlinks": {NOME_ATALHO_APLICATIVOS: "/Applications"},
+        "icon_locations": POSICOES_DMG,
+        "background": str(fundo),
+        "window_rect": ((200, 140), JANELA_DMG),
+        "default_view": "icon-view",
+        "icon_size": 128,
+        "text_size": 13,
+        "show_status_bar": False,
+        "show_tab_view": False,
+        "show_toolbar": False,
+        "show_pathbar": False,
+        "show_sidebar": False,
+    }
+    return "".join("%s = %r\n" % item for item in ajustes.items())
+
+
 def construir_dmg(pasta: Path, dist: Path, cache: Path) -> Path:
     versao = conferir_pasta(pasta)
     saida = dist / ("Goal-Pacer-%s.dmg" % versao)
@@ -274,26 +316,23 @@ def construir_dmg(pasta: Path, dist: Path, cache: Path) -> Path:
         palco = base / "palco"
         palco.mkdir()
         montar_app(pasta, versao, python, palco / janela.NOME_APP)
-        (palco / "Aplicativos").symlink_to("/Applications")
+        fundo = base / "fundo.tiff"  # 1x e 2x num arquivo só: nítido em tela Retina
+        _rodar(
+            [
+                "tiffutil",
+                "-cathidpicheck",
+                str(FUNDO_DMG / "fundo.png"),
+                str(FUNDO_DMG / "fundo@2x.png"),
+                "-out",
+                str(fundo),
+            ]
+        )
+        ajustes = base / "ajustes_dmg.py"
+        ajustes.write_text(ajustes_dmg(palco / janela.NOME_APP, fundo), encoding="utf-8")
         dist.mkdir(parents=True, exist_ok=True)
         if saida.exists():
             saida.unlink()
-        _rodar(
-            [
-                "hdiutil",
-                "create",
-                "-volname",
-                "Goal Pacer",
-                "-srcfolder",
-                str(palco),
-                "-ov",
-                "-format",
-                "UDZO",
-                "-fs",
-                "HFS+",
-                str(saida),
-            ]
-        )
+        _rodar([*comando_dmgbuild(), "-s", str(ajustes), "Goal Pacer", str(saida)])
     _rodar(["hdiutil", "verify", str(saida)])
     return saida
 

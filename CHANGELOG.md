@@ -3,6 +3,12 @@
 Uma seção por versão publicada, da mais nova para a mais antiga. `dev/release.py` usa a seção da versão como notas da
 página da versão no GitHub e recusa publicar sem ela.
 
+## 0.6.3 (14/09/2026)
+
+- **Janela do `.dmg` com instruções:** arraste o Goal Pacer para Aplicativos, com o passo da primeira abertura do
+  macOS (Ajustes do Sistema › Privacidade e Segurança › Abrir Mesmo Assim) na própria janela, em português e em
+  inglês. O aviso aparece só na primeira vez: as atualizações pelo botão da tela Status não mostram o aviso.
+
 ## 0.6.2 (14/09/2026)
 
 - Nada muda no app. O repositório no GitHub recomeçou o histórico: as versões antigas saíram da página de versões, e

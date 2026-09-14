@@ -78,6 +78,8 @@ jobs:
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97  # v7.0.0
         with:
           python-version: "3.13"
+      - name: dmgbuild com versão fixa (fundo e posição dos ícones do .dmg)
+        run: python -m pip install --disable-pip-version-check -r requirements-dmg.txt
       - name: .dmg de uma versão de teste (Python universal, app compilado, assinatura local), abrir a janela, repetir e atualizar
         run: python tests/e2e/instaladores.py mac
 

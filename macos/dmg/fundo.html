@@ -1,0 +1,42 @@
+<!doctype html>
+<!-- Fundo da janela do .dmg (660x440). Gerado em fundo.png e fundo@2x.png por dev/fundo_dmg.py; o Finder desenha os
+     ícones por cima: o app em (165, 180) e o atalho Aplicativos em (495, 180), como em dev/empacotar.py. -->
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<style>
+  @font-face { font-family: "Jakarta"; src: url("/web/fonts/plus-jakarta-sans-latin.woff2") format("woff2"); font-weight: 200 800; }
+  html { zoom: var(--escala, 1); }
+  body { margin: 0; width: 660px; height: 440px; overflow: hidden; font-family: "Jakarta", -apple-system, "Helvetica Neue", sans-serif;
+         color: #15181D; background: radial-gradient(120% 90% at 0% 0%, #DCEBE2 0%, #EEF3F0 45%, #F3F4F6 100%); position: relative; }
+  .titulo { position: absolute; top: 34px; left: 0; right: 0; text-align: center; }
+  .titulo h1 { margin: 0; font-size: 21px; font-weight: 750; letter-spacing: -0.2px; }
+  .titulo p { margin: 4px 0 0; font-size: 12px; color: #5B6470; }
+  .seta { position: absolute; left: 258px; top: 156px; width: 144px; height: 48px; }
+  .painel { position: absolute; left: 28px; right: 28px; bottom: 26px; padding: 14px 18px 13px; border-radius: 16px;
+            background: rgba(255,255,255,0.78); border: 1px solid rgba(47,107,79,0.18); }
+  .rotulo { display: flex; align-items: center; gap: 8px; font-size: 10.5px; font-weight: 750; letter-spacing: 1.1px;
+            text-transform: uppercase; color: #2F6B4F; }
+  .rotulo span { display: inline-grid; place-items: center; width: 18px; height: 18px; border-radius: 50%;
+                 background: #2F6B4F; color: #fff; font-size: 11px; letter-spacing: 0; }
+  .passos { margin: 7px 0 0; font-size: 13px; line-height: 1.45; }
+  .passos b { font-weight: 700; }
+  .en { margin: 5px 0 0; font-size: 11px; line-height: 1.4; color: #5B6470; }
+</style>
+</head>
+<body>
+  <div class="titulo">
+    <h1>Arraste o Goal Pacer para Aplicativos</h1>
+    <p>Drag Goal Pacer to Applications</p>
+  </div>
+  <svg class="seta" viewBox="0 0 144 48" aria-hidden="true">
+    <path d="M8 24 H122" stroke="#2F6B4F" stroke-width="5" stroke-linecap="round" stroke-dasharray="1 12" fill="none"/>
+    <path d="M112 10 L132 24 L112 38" stroke="#2F6B4F" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </svg>
+  <div class="painel">
+    <div class="rotulo"><span>!</span>Na primeira abertura</div>
+    <p class="passos">O macOS avisa que não pôde verificar o app. Clique em <b>OK</b>, abra <b>Ajustes do Sistema › Privacidade e Segurança</b>, role até o fim e clique em <b>Abrir Mesmo Assim</b>. Só uma vez.</p>
+    <p class="en">First launch: click OK, open System Settings › Privacy &amp; Security, scroll down, click Open Anyway.</p>
+  </div>
+</body>
+</html>

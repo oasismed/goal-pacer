@@ -108,6 +108,8 @@ flowchart LR
 3. Abra o app. Na primeira vez o macOS avisa que não verificou o app: vá em **Ajustes do Sistema › Privacidade e Segurança** e clique em **Abrir mesmo assim**.
 4. O app prepara tudo em cerca de um minuto, com o progresso na janela, e abre na tela **Começar**.
 
+<img src="assets/dmg-mac.png" width="420" alt="Janela do .dmg: arraste o Goal Pacer para Aplicativos, com o passo da primeira abertura"/>
+
 </td>
 <td valign="top">
 
@@ -120,7 +122,7 @@ flowchart LR
   </tr>
 </table>
 
-O aviso da primeira abertura aparece porque o app não tem certificado pago da Apple ou da Microsoft. Cada versão é assinada e conferida pelo próprio app antes de instalar.
+O aviso da primeira abertura aparece porque o app não tem certificado pago da Apple ou da Microsoft, e só acontece uma vez: as atualizações pelo botão da tela Status não mostram o aviso. Cada versão é assinada e conferida pelo próprio app antes de instalar.
 
 <a id="primeiros-passos"></a>
 ## Primeiros passos

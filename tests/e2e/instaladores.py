@@ -119,8 +119,11 @@ def _copiar_do_dmg(dmg: Path, aplicativos: Path, montagem: Path) -> Path:
         shutil.rmtree(str(app), ignore_errors=True)
         subprocess.run(["ditto", str(montagem / "Goal Pacer.app"), str(app)], check=True, timeout=300)
         atalho = montagem / "Aplicativos"
+        janela_pronta = (montagem / ".background.tiff").is_file() and (montagem / ".DS_Store").is_file()
         return (
-            app if atalho.is_symlink() and os.readlink(str(atalho)) == "/Applications" else app.with_name("sem-atalho")
+            app
+            if atalho.is_symlink() and os.readlink(str(atalho)) == "/Applications" and janela_pronta
+            else app.with_name("sem-atalho-ou-fundo")
         )
     finally:
         subprocess.run(["hdiutil", "detach", str(montagem)], check=False, timeout=120)
@@ -185,7 +188,9 @@ def mac() -> int:
     env.update(HOME=str(casa), GP_LAUNCHCTL=str(lancador), PYTHONUTF8="1", PYTHONDONTWRITEBYTECODE="1")
 
     app = _copiar_do_dmg(dmg1, aplicativos, base / "montagem")
-    conferir(app.name == "Goal Pacer.app", ".dmg com o app e o atalho para Aplicativos")
+    conferir(
+        app.name == "Goal Pacer.app", ".dmg com o app, o atalho para Aplicativos e a janela com o fundo das instruções"
+    )
     arquiteturas = subprocess.run(
         ["lipo", "-archs", str(app / "Contents" / "MacOS" / "GoalPacer")], capture_output=True, text=True, check=False
     ).stdout
