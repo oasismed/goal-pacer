@@ -4,7 +4,7 @@ Implementa os achados 5.1 (pacote stdlib) e 1.4 (raiz única) do plano e os cód
 Não importa nenhum outro módulo do ``goalpacer`` (tests/test_arquitetura.py): o log mora em ``telemetria``,
 os argumentos comuns dos CLIs em ``cli`` e a regra das pastas protegidas do macOS em ``plataforma``.
 
-Layout da raiz (env ``GP_RAIZ`` sobrepõe ``~/.goal-pacer``)::
+Layout da raiz (env ``GP_RAIZ``, senão a instalação onde o código está, senão ``~/.goal-pacer``)::
 
     RAIZ/
       app/     clone do repo; ~/.claude/skills/goal-pacer aponta para cá
@@ -74,15 +74,32 @@ def raiz_padrao() -> Path:
     return Path.home() / NOME_RAIZ
 
 
-def raiz() -> Path:
-    """Raiz da instalação: ``GP_RAIZ`` ou ``raiz_padrao()``.
+def raiz_do_codigo(arquivo: str = __file__) -> Optional[Path]:
+    """A instalação que contém este código, quando ele roda de ``<raiz>/app/scripts/goalpacer/``.
 
-    Lê o ambiente a cada chamada (os testes trocam as variáveis).
+    Vale só se ``<raiz>/jobs/instalacao.json`` existe: um clone de desenvolvimento não tem esse arquivo
+    acima dele e cai no padrão. É o que deixa a instalação mudar de pasta sem ``GP_RAIZ`` (a skill chama
+    os scripts pela própria pasta, que é o ``app/``).
+    """
+    pacote = Path(arquivo).resolve().parent
+    app = pacote.parent.parent
+    if app.name != NOME_APP:
+        return None
+    candidata = app.parent
+    if (candidata / NOME_JOBS / NOME_INSTALACAO).is_file():
+        return candidata
+    return None
+
+
+def raiz() -> Path:
+    """Raiz da instalação: ``GP_RAIZ``, senão a instalação que contém o código, senão ``raiz_padrao()``.
+
+    Lê o ambiente e o disco a cada chamada (os testes trocam as variáveis e o HOME).
     """
     env = _path_do_env(ENV_RAIZ)
     if env is not None:
         return env
-    return raiz_padrao()
+    return raiz_do_codigo() or raiz_padrao()
 
 
 def app_dir() -> Path:

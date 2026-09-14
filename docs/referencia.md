@@ -389,7 +389,7 @@ O uso normal não precisa de nenhuma: os argumentos dos CLIs e os arquivos do ag
 
 | Variável | Para quê |
 |---|---|
-| `GP_RAIZ` | raiz da instalação (padrão `~/.goal-pacer`) |
+| `GP_RAIZ` | raiz da instalação (sem ela: a instalação onde o código está, o que deixa mudar a pasta de lugar; senão `~/.goal-pacer`) |
 | `GP_DATA_DIR` | pasta de dados (`--dados` grava aqui) |
 | `GP_RUN_ID` | identificador da execução no log e no registro (`--run-id`) |
 | `GP_AGORA` | relógio fixo (`--agora`); os jobs nunca usam |

@@ -85,6 +85,46 @@ def test_raiz_padrao_no_home(monkeypatch, tmp_path):
     assert not hasattr(base, "RAIZ_PADRAO")
 
 
+@pytest.mark.posix
+def test_raiz_do_codigo_segue_a_instalacao_movida(monkeypatch, tmp_path):
+    """Instalação fora de ~/.goal-pacer, sem GP_RAIZ: a raiz vem de onde o código está."""
+    monkeypatch.delenv("GP_RAIZ", raising=False)
+    monkeypatch.setenv("HOME", str(tmp_path / "casa"))
+    raiz = tmp_path / "dev" / ".goal-pacer"
+    codigo = raiz / "app" / "scripts" / "goalpacer" / "base.py"
+    codigo.parent.mkdir(parents=True)
+    codigo.write_text("", encoding="utf-8")
+    # sem instalacao.json acima (um clone de desenvolvimento): não é instalação
+    assert base.raiz_do_codigo(str(codigo)) is None
+    (raiz / "jobs").mkdir()
+    (raiz / "jobs" / "instalacao.json").write_text("{}", encoding="utf-8")
+    assert base.raiz_do_codigo(str(codigo)) == raiz
+    # pasta que não se chama app: não é o layout da instalação
+    outro = tmp_path / "x" / "scripts" / "goalpacer" / "base.py"
+    outro.parent.mkdir(parents=True)
+    outro.write_text("", encoding="utf-8")
+    (tmp_path / "jobs").mkdir()
+    (tmp_path / "jobs" / "instalacao.json").write_text("{}", encoding="utf-8")
+    assert base.raiz_do_codigo(str(outro)) is None
+    # o repositório de testes não está dentro de uma instalação: raiz() cai no padrão do HOME
+    assert base.raiz() == tmp_path / "casa" / ".goal-pacer"
+
+
+@pytest.mark.posix
+def test_raiz_do_codigo_com_symlink(monkeypatch, tmp_path):
+    """A skill é um symlink para app/: o caminho resolvido é o que vale."""
+    raiz = tmp_path / "dev" / ".goal-pacer"
+    codigo = raiz / "app" / "scripts" / "goalpacer" / "base.py"
+    codigo.parent.mkdir(parents=True)
+    codigo.write_text("", encoding="utf-8")
+    (raiz / "jobs").mkdir()
+    (raiz / "jobs" / "instalacao.json").write_text("{}", encoding="utf-8")
+    ligacao = tmp_path / "skills" / "goal-pacer"
+    ligacao.parent.mkdir()
+    ligacao.symlink_to(raiz / "app")
+    assert base.raiz_do_codigo(str(ligacao / "scripts" / "goalpacer" / "base.py")) == raiz
+
+
 def test_raizes_por_env(dados_tmp):
     raiz = dados_tmp.parent / "raiz"
     assert base.raiz() == raiz
