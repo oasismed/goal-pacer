@@ -24,7 +24,7 @@ import os
 from pathlib import Path
 from typing import Optional
 
-VERSAO_APP = "0.6.3"  # a versão publicada; sobe junto com o CHANGELOG.md e a tag assinada (dev/release.py)
+VERSAO_APP = "0.6.4"  # a versão publicada; sobe junto com o CHANGELOG.md e a tag assinada (dev/release.py)
 
 EXIT_OK = 0
 EXIT_ESTADO = 2

@@ -3,6 +3,13 @@
 Uma seção por versão publicada, da mais nova para a mais antiga. `dev/release.py` usa a seção da versão como notas da
 página da versão no GitHub e recusa publicar sem ela.
 
+## 0.6.4 (14/09/2026)
+
+- **A instalação pode mudar de pasta.** Sem `GP_RAIZ`, os scripts acham a instalação pela pasta onde o próprio código
+  está, e a skill chama os scripts pela pasta dela (`${CLAUDE_SKILL_DIR}`), não mais por `~/.goal-pacer/app`. Para
+  mover: `mv ~/.goal-pacer <nova pasta>`, corrija os caminhos em `<nova pasta>/jobs/instalacao.json` e rode
+  `python3 <nova pasta>/app/scripts/instalar.py --reaplicar`. Quem não move não percebe diferença.
+
 ## 0.6.3 (14/09/2026)
 
 - **Janela do `.dmg` com instruções:** arraste o Goal Pacer para Aplicativos, com o passo da primeira abertura do
